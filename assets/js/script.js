@@ -74,3 +74,18 @@ function clearUp(element) {
 function displayEndScore() {
     
 }
+
+// Show modal when rules are clicked. Rules Modal from w3schools
+rules.onclick = function() {
+    modal.style.display = "block";
+};
+// Close modal when "x" is clicked. Rules Modal from w3schools
+span.onclick = function() {
+    modal.style.display = "none";
+};
+// Close the modal when clicking outside the modal content. Rules Modal from w3schools
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
