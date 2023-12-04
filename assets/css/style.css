@@ -9,36 +9,39 @@
 
 }
 body {
-    background-image:url(../images/pexels-rdne-stock-project-7978061.png);
+    background-image:url(../images/pexels-rdne-stock-project-7978061.webp);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
     background-color:#654F39;
+    min-height:100vh;
     
 }
 /* Styling for header  */
-header img {
-    width:40%;
-    margin-left:90%;
-    height:auto;
-    margin-top:-100px;     
+img {
+    height:80px;    
 }
-  
-header h1 {
-    margin-right:25%;
-    font-size:50px;
-     
+   
+header  {
+     background-color:rgba(213, 183, 106, 0.674);
+     margin-left:5%;
+     border-radius:25px;
+     width:90%;
+ 
+      
 }
-
+ 
 #main-div {
-    background-color: rgba(213, 183, 106, 0.674);
-    width: 50%;
-    height: 75%;
-    border-radius: 25px;
-    padding: 25px;
-    margin-bottom: 25px;
+     background-color: rgba(213, 183, 106, 0.674);
+     width: 90%;
+     margin-left:2%;
+     border-radius: 25px;
+     padding: 25px;
+     margin-bottom: 25px;
+  
+ 
 }
-
+ 
 #about-game {
     border-style: double;
     border-color: #3f2306;
@@ -46,6 +49,7 @@ header h1 {
     letter-spacing: 1px;
     margin-bottom: 25px;
     padding: 15px;
+   
 }
 /* general styling for the bottonsc*/
 .button {
