@@ -1,12 +1,13 @@
- @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
 /* General styling */
 
 * {
     margin: 0 auto;
-    font-family: 'HennyPenny';
-    color: #ffffff;
-    font-size: 18px;
+    font-family: 'Henny Penny';
+    color: #281401;
+    font-size: 22px;
     letter-spacing: 1px;
     text-align: center;
    
@@ -25,7 +26,7 @@ body {
 header {
     margin-bottom:30px;
     margin-top:5%;
-    background-color: rgba(101, 79, 57, 0.8);
+    background-color: #d5b76a70;
     box-sizing: border-box;
     width: 80%;
     border-radius: 10px;
@@ -47,7 +48,7 @@ header h1 {
 }
 
 #main-div {
-    background-color: #7e6892;
+    background-color: rgba(213, 183, 106, 0.674);
     width: 50%;
     height: 75%;
     border-radius: 25px;
@@ -57,7 +58,7 @@ header h1 {
 
 #about-game {
     border-style: double;
-    border-color: #5d4079;
+    border-color: #3f2306;
     border-radius: 25px;
     letter-spacing: 1px;
     margin-bottom: 25px;
