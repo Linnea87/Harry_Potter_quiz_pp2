@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+/* General styling */
+
+* {
+    margin: 0 auto;
+    font-family: 'HennyPenny';
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+   
+}
+/* Styling for main content */
+body {
+    background-color: #654F39;
+    background-image: url(../images/pexels-rdne-stock-project-7978061.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    object-fit:contain;
+    min-height:100vh;
+    
+}
+
+header {
+    
+    background-color: rgba(101, 79, 57, 0.8);
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+header img {
+
+    margin-left:90%;
+    width:15rem;
+    height:auto;
+    
+}
+   
+header h1 {
+    margin-right:25%;
+    font-size:50px;
+     
+}
