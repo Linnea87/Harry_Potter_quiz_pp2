@@ -21,17 +21,17 @@
 </head>
 
 <body>
-    <!-- Header and main content are inspired from Hujanen91 and Rackstorm -->
+    <!-- Header and main content are inspired from w3schools, Web Dev Simplified, Hujanen91 and Rackstorm -->
     <header>
         <h1>
-            Harry Potter Quiz
-            <img src="assets/images/Hogwarts-Logo.webp" alt="Quiz Hogwarts-Logo">
+            Harry Potter Quiz<img src="assets/images/Hogwarts-Logo.png" alt="Quiz Hogwarts-Logo">
         </h1>
     </header>
     <main>
         <div id="main-div">
             <div id="about-game">
                 <h2>Welcome to the "Harry Potters" Fan Quiz!</h2>
+                <br>
                 <p>Hello there, "Harry Potter" enthusiast! Are you ready to embark on a nostalgic trip 
                     to Hogwarts and relive the magical moments, young romances and the unforgettable adventures 
                     from your favorite books/movies? Then you've come to the right place, for this online quiz
@@ -49,7 +49,29 @@
                     </div>
                 </div>
             </div>
-        
+            
+            <div id="results-container" class="hide">
+                <button class="timer-score no-click" id="score">Score:<span id="score-value">0</span></button>
+                <button class="next-button hide" id="next-button">Next</button>
+            </div>
+            
+            <div class="start-rules">
+                <button class="back-button hide" id="back-button">Back to start</button>
+                <button class="startbutton" id="start-button">Let's go!</button>
+                <button class="rules-button" id="game-rules-button">Game Rules</button> 
+            </div>
+             
+            <!-- Modal content -->
+             <div id="myModal" class="modal">
+                <div class="rules-content">
+                    <span class="close">&times;</span>
+                    <p>rules</p>
+                </div>
+            </div>
+            
+            <div id="try-again-container" class="hide">
+                <button class="try-again-button" id="try-again">Try again?</button>
+            </div>
 
         </div>
 
