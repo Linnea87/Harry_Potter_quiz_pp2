@@ -1,4 +1,37 @@
+//code being used from other creators have been outlined next to the function
+
+// Variables
+const startButton = document.getElementById('start-button');
+const rulesButton = document.getElementById('game-rules-button');
+const answerButton = document.getElementById('answer-buttons');
+const resultContainer = document.getElementById('results-container');
+const questionContainer = document.getElementById('question-container');
+const questionElement = document.getElementById('question');
+const aboutGame = document.getElementById('about-game');
+const nextButton = document.getElementById('next-button');
+const score = document.getElementById('score');
+let quizEnded = false;
+
+// Rules Modal from w3schools and inspiration from hujanen91
+var modal = document.getElementById('myModal');
+var rules = document.getElementById('game-rules-button');
+var span = document.getElementsByClassName('close')[0];
+
+let currentScore = 0; 
+let shuffledQuestion;
+let currentQuestionIndex = 0;
+
+//Event listeners for the buttons
+startButton.addEventListener('click', startGame);
+answerButton.addEventListener('click', selectAnswer);
+nextButton.addEventListener('click', setNextQuestion);
+
+// Start game. Code inspired from Web Dev Simplified
 function startGame() {
+    // Hide buttons that are not supposed to show on start
+    startButton.classList.add('hide');
+    rulesButton.classList.add('hide');
+    aboutGame.classList.add('hide');
 
 }
 

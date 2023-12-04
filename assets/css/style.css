@@ -9,7 +9,7 @@
 
 }
 body {
-    background-image:url(../images/pexels-rdne-stock-project-7978061.webp);
+    background-image:url(../images/pexels-rdne-stock-project-7978061.png);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -46,4 +46,13 @@ header h1 {
     letter-spacing: 1px;
     margin-bottom: 25px;
     padding: 15px;
+}
+/* general styling for the bottonsc*/
+.button {
+    padding: 10px 2px 10px 2px;
+    margin: 5px auto 5px auto;
+    width: 75%;
+    background-color: #3f230693;
+    border-radius: 25px;
+    
 }
