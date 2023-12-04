@@ -4,43 +4,26 @@
 /* General styling */
 
 * {
-    margin: 0 auto;
     font-family: 'Henny Penny';
-    color: #281401;
-    font-size: 22px;
-    letter-spacing: 1px;
     text-align: center;
-   
+
 }
-/* Styling for main content */
 body {
-    background-color: #654F39;
-    background-image: url(../images/pexels-rdne-stock-project-7978061.webp);
-    background-repeat:no-repeat;
+    background-image:url(../images/pexels-rdne-stock-project-7978061.webp);
     background-size:cover;
-    object-fit:contain;
-    min-height:100vh;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:#654F39;
     
 }
 /* Styling for header  */
-header {
-    margin-bottom:30px;
-    margin-top:5%;
-    background-color: #d5b76a70;
-    box-sizing: border-box;
-    width: 80%;
-    border-radius: 10px;
-}
-
-
 header img {
-
+    width:40%;
     margin-left:90%;
-    width:15rem;
     height:auto;
-    
+    margin-top:-100px;     
 }
-   
+  
 header h1 {
     margin-right:25%;
     font-size:50px;
