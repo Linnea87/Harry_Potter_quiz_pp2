@@ -21,25 +21,24 @@ body {
 img {
     height:80px;    
 }
-   
 header  {
-     background-color:rgba(213, 183, 106, 0.674);
-     margin-left:5%;
-     border-radius:25px;
-     width:90%;
- 
-      
+    background-color:rgba(213, 183, 106, 0.674);
+    margin-left:15%;
+    border-radius:25px;
+    width:70%;
+
+     
 }
- 
+
 #main-div {
-     background-color: rgba(213, 183, 106, 0.674);
-     width: 90%;
-     margin-left:2%;
-     border-radius: 25px;
-     padding: 25px;
-     margin-bottom: 25px;
-  
+    background-color: rgba(213, 183, 106, 0.674);
+    width: 70%;
+    margin-left:11%;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 25px;
  
+
 }
  
 #about-game {
@@ -51,7 +50,7 @@ header  {
     padding: 15px;
    
 }
-/* general styling for the bottonsc*/
+/* general styling for the bottons */
 .button {
     padding: 10px 2px 10px 2px;
     margin: 5px auto 5px auto;
