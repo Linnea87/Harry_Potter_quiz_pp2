@@ -105,6 +105,13 @@ header  {
     background-color:rgb(192, 130, 8);
     color: white;
 }
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
 .hide {
     display: none;
 }
