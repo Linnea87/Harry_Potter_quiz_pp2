@@ -8,12 +8,14 @@ const theQuestions = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const rulesButton = document.getElementById('game-rules-button')
 const aboutGame = document.getElementById('about-game')
+
 let shuffledQuestions;
 let currentQuestionIndex;
 
 // Eventlistener that makes the different buttons visible */
 startButton.addEventListener('click', startGame);
 button.addEventListener('click', selectAnswer);
+nextbutton.addEventListener('click', setNextQuestion);
 
 function startGame(){
     // Hide buttons that are not suposed to show 
@@ -49,15 +51,43 @@ function showQuestion(question) {
     });
    
 }  
-
+// clear up the questions and answers and activate the clearing timer display function. Code used from WebDev Simplified's Javascript tutorial and modified
 function resetState() {
+    clearUp(document.body);
     nextbutton.classList.add('hide');
-    while (answerButtons.firstChildChild) {
+    while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-function selectAnswer() {
+// hide butttons- if the chosen answer is correct. Code used from WebDev Simplified's Javascript tutorial and modified
+function selectAnswer(e) {
+    const selectedButton = e.target;
+    const correct = selectedButton.dataset.correct;
+    setStatusClass(document.body, correct);
+    Array.from(answerButtons.children).forEach(button => {
+       settingStatus(button, button.dataset.correct);
+    });
+    if (shuffledQuestions.length > currentQuestionIndex + 1){
+        nextbutton.classList.remove('hide');
+    }
+
 
 }
+//show the right and wrong answers after clicking,
+function settingStatus(element, correct) {
+    clearUp(element);
+    if (correct) {
+        element.classList.add('correct');
+    }else {
+        element.classList.add('incorrect');
+    }
+}
+
+function clearUp(element) {
+    element.classList.remove('correct');
+    element.classList.remove('incorrect');
+}
+
+
 
