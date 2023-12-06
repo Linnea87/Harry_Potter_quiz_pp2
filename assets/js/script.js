@@ -23,10 +23,12 @@ function startGame(){
     setNextQuestion()
 }
 
+//Next question. Code from Web Dev Simplified's Javascript tutorial and modified
 function setNextQuestion(){
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
-// Load the questions and answer options into the buttons on the page. Code used from WebDev Simplified's Javascript tutorial and modified
+
+//Get questions and answers. Code from Web Dev Simplified's Javascript tutorial and modified
 function showQuestion(question) {
     theQuestions.innerText = question.question;
     question.answers.forEach(answer => {
