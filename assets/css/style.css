@@ -1,7 +1,6 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
-/* General styling */
 
 * {
     font-family: 'Henny Penny';
@@ -52,10 +51,49 @@ header  {
 }
 /* general styling for the bottons */
 .button {
-    padding: 10px 2px 10px 2px;
-    margin: 5px auto 5px auto;
-    width: 75%;
-    background-color: #3f230693;
-    border-radius: 25px;
-    
+    font-size: 14px;
+    width: 60%;
+    padding: 12px;
+    margin: 10px;
+    display: inline-block;
+    background-color:#654f39c0;
+    border: 1px solid  #3f2306;;
+    border-radius: 20px;
+    overflow: visible;
+    cursor: pointer;
+    transition: all 0.5s;
 }
+
+.button:hover {
+    background-color:rgb(192, 130, 8);
+    color: white;
+    cursor: pointer;
+}
+
+.start-button,
+.next-button, 
+.rules-button,
+.try-again-button {
+    font-size: 20px;
+    font-size: 14px;
+    width: 120px;
+    padding: 12px;
+    margin: 10px;
+    background-color: #654f39;
+    border: 1px solid  #3f2306;;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s;
+
+}
+
+.start-button:hover,
+.next-button:hover,
+.rules-button:hover,
+.try-again-button:hover {
+    background-color:rgb(192, 130, 8);
+    color: white;
+}
+
+/* This link sets the stylign for the curser taken from Start https://www.cursors-4u.com */
+* {cursor:url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}
