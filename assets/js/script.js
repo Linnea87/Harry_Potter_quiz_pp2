@@ -10,7 +10,7 @@ const rulesButton = document.getElementById('game-rules-button')
 const aboutGame = document.getElementById('about-game')
 
 let shuffledQuestions;
-let currentQuestionIndex;
+let currentQuestionIndex =0;
 
 // Eventlistener that makes the different buttons visible */
 startButton.addEventListener('click', startGame);
