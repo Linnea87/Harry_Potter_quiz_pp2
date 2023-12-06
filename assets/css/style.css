@@ -105,6 +105,8 @@ header  {
     background-color:rgb(192, 130, 8);
     color: white;
 }
-
+.hide {
+    display: none;
+}
 /* This link sets the stylign for the curser taken from Start https://www.cursors-4u.com */
 * {cursor:url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}
