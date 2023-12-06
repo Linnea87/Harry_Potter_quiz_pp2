@@ -41,13 +41,21 @@ header  {
 }
  
 #about-game {
-    border-style: double;
+    border-style: dotted;
     border-color: #3f2306;
     border-radius: 25px;
     letter-spacing: 1px;
     margin-bottom: 25px;
     padding: 15px;
    
+}
+
+#question {
+    border-style: dotted;
+    border-color: #3f2306;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    padding: 15px;
 }
 /* general styling for the answer bottons */
 .button {
@@ -82,7 +90,7 @@ header  {
     padding: 12px;
     margin: 10px;
     background-color:#8a5939;
-    border: 1px solid  #3f2306;;
+    border: 1px ridge #3f2306;;
     color: white;
     border-radius: 20px;
     transition: all 0.5s;
