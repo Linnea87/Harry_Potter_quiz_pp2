@@ -32,7 +32,7 @@ function startGame(){
     //Clear the current score
     currentScore = 0;
     renderScore(); // Update the score 
-    score.classList.remove('hide')
+    score.classList.remove('hide') //show the score
     questionContainer.classList.remove('hide');
     setNextQuestion();
     answerButtons.classList.remove('hide');
@@ -40,21 +40,23 @@ function startGame(){
 
 }
 
-//update the player's score
+//update the player's score. Code inspired from Web Dev Simplified
 
 function updateScore() {
     currentScore++ //increment the score
     renderScore();
 }
-
+// Update the score by displaying correct clicked answers
 function renderScore(){
     score.innerText = currentScore
 
 }
 //Next question. Code from Web Dev Simplified's Javascript tutorial and modified
 function setNextQuestion(){
-    resetState();
-    showQuestion(shuffledQuestions[currentQuestionIndex]);
+    resetState(); //clear the current state
+    showQuestion(shuffledQuestions[currentQuestionIndex++]);
+
+   
 }
 
 //Get questions and answers. Code from Web Dev Simplified's Javascript tutorial and modified
