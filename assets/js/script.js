@@ -6,15 +6,14 @@ const nextbutton = document.getElementById('next-button');
 const questionContainer = document.getElementById('question-container');
 const theQuestions = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
-const rulesButton = document.getElementById('game-rules-button')
-const aboutGame = document.getElementById('about-game')
+const rulesButton = document.getElementById('game-rules-button');
+const aboutGame = document.getElementById('about-game');
 
 let shuffledQuestions;
-let currentQuestionIndex =0;
+let currentQuestionIndex = 0;
 
 // Eventlistener that makes the different buttons visible */
 startButton.addEventListener('click', startGame);
-button.addEventListener('click', selectAnswer);
 nextbutton.addEventListener('click', setNextQuestion);
 
 function startGame(){
@@ -47,6 +46,7 @@ function showQuestion(question) {
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
+        button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
    
@@ -64,7 +64,7 @@ function resetState() {
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
-    setStatusClass(document.body, correct);
+    settingStatus(document.body, correct);
     Array.from(answerButtons.children).forEach(button => {
        settingStatus(button, button.dataset.correct);
     });
