@@ -22,11 +22,11 @@ function startGame(){
     rulesButton.classList.add('hide');
     aboutGame.classList.add('hide');
 
-     // Shuffle the questions and initialize variables
+    // Shuffle the questions and initialize variables
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     questionContainer.classList.remove('hide');
-    setNextQuestion()
+    setNextQuestion();
 
 }
 
@@ -45,6 +45,9 @@ function showQuestion(question) {
         button.classList.add('button');
         if (answer.correct) {
             button.dataset.correct = answer.correct;
+            button.addEventListener('click', () => {
+                updateScore();
+            });
         }
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
@@ -62,17 +65,15 @@ function resetState() {
 
 // hide butttons- if the chosen answer is correct. Code used from WebDev Simplified's Javascript tutorial and modified
 function selectAnswer(e) {
-    const selectedButton = e.target;
-    const correct = selectedButton.dataset.correct;
-    settingStatus(document.body, correct);
     Array.from(answerButtons.children).forEach(button => {
+        if (button.dataset.correct) {
+            button.disable =true;
+        }
        settingStatus(button, button.dataset.correct);
     });
     if (shuffledQuestions.length > currentQuestionIndex + 1){
         nextbutton.classList.remove('hide');
     }
-
-
 }
 //show the right and wrong answers after clicking,
 function settingStatus(element, correct) {
