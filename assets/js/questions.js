@@ -178,7 +178,7 @@ const questions = [
         ]
     },
     {
-        question:"What Hogwarts house was Moaning Myrtle in"?
+        question:"What Hogwarts house was Moaning Myrtle in?",
         answers:[
             {text:"Gryffindor", correct: false},
             {text:"Slytherin", correct: false},
