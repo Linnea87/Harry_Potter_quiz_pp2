@@ -81,10 +81,10 @@ const questions = [
     {
         question: "From which King's Cross platform does the Hogwarts Express leave?",
         answers:[
-            {text:"A quarter past eight", correct: false},
-            {text:"A quarter past nine", correct: true},
-            {text:"Five and a half", correct: false},
-            {text:"A quarter past eleven", correct: false},
+            {text:"Platform 8 3/4", correct: false},
+            {text:"Platform 9 3/4", correct: true},
+            {text:"Platform 5 3/4", correct: false},
+            {text:"Plattform 11 3/4", correct: false},
         ]
     },
     {
@@ -126,9 +126,9 @@ const questions = [
     {
         question: "What spell did Harry use to kill Lord Voldemort?",
         answers:[
-            {text:"Expelliarmus", correct: false},
+            {text:"Expelliarmus", correct: true},
             {text:"Expecto Patronum", correct: false},
-            {text:"Avada Kedavra", correct: true},
+            {text:"Avada Kedavra", correct: false},
             {text:"Accio", correct: false},
         ]
     },
@@ -178,7 +178,7 @@ const questions = [
         ]
     },
     {
-        question:"Which Hogwarts house did Moaning Myrtle belong in?",
+        question:"What Hogwarts house was Moaning Myrtle in"?
         answers:[
             {text:"Gryffindor", correct: false},
             {text:"Slytherin", correct: false},
