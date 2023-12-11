@@ -11,6 +11,10 @@ const aboutGame = document.getElementById('about-game');
 const nextbutton = document.getElementById('next-button');
 const score = document.getElementById('score');
 
+// Modal box for the rules, code from w3school
+var modal = document.getElementById('myModal');
+var rules = document.getElementById('game-rules-button'); // Open the modal box
+var span = document.getElementsByClassName('close')[0]; // Close the model box
 
 let shuffledQuestions;
 let currentQuestionIndex = 0;
@@ -112,6 +116,22 @@ function clearUp(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
 }
-
+// Model box section, code from w3school
+// Display model box When  user clicks on the rules button.
+rules.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When users click on "x", the model box closes.
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // The model box closes when the user clicks anywhere outside the model content.
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
 
 
