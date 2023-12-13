@@ -134,7 +134,7 @@ function clearUp(element) {
 
 function displayEndScore(){
     questionContainer.classList.add('hide');
-    scoreValue.innerText = currentScore + ' / ' + questions.length;
+    scoreValue.innerText = `${currentScore} out of 10`;
     nextbutton.classList.add('hide');
     startButton.innerText = 'Want to play again?';
     startButton.classList.remove('hide')
