@@ -10,6 +10,7 @@ const theQuestions = document.getElementById('question');
 const aboutGame = document.getElementById('about-game');
 const nextbutton = document.getElementById('next-button');
 const score = document.getElementById('score');
+const scoreValue =document.getElementById('score-value');
 
 // Modal box for the rules, code from w3school
 var modal = document.getElementById('myModal');
@@ -19,6 +20,7 @@ var span = document.getElementsByClassName('close')[0]; // Close the model box
 let shuffledQuestions;
 let currentQuestionIndex = 0;
 let currentScore = 0;
+let quizOver = false;
 
 // Eventlistener that makes the different buttons visible */
 startButton.addEventListener('click', startGame);
@@ -29,7 +31,8 @@ function startGame(){
     startButton.classList.add('hide');
     rulesButton.classList.add('hide');
     aboutGame.classList.add('hide');
-
+    // keep track of which questions are already used
+    questionTracker = [];
     // Shuffle the questions and initialize variables
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
@@ -52,15 +55,14 @@ function updateScore() {
 }
 // Update the score by displaying correct clicked answers
 function renderScore(){
-    score.innerText = currentScore
+    scoreValue.innerText = currentScore;
 
 }
 //Next question. Code from Web Dev Simplified's Javascript tutorial and modified
 function setNextQuestion(){
     resetState(); //clear the current state
-    showQuestion(shuffledQuestions[currentQuestionIndex++]);
-
-   
+    showQuestion(shuffledQuestions[currentQuestionIndex++]); 
+    
 }
 
 //Get questions and answers. Code from Web Dev Simplified's Javascript tutorial and modified
@@ -98,8 +100,21 @@ function selectAnswer(e) {
         }
        settingStatus(button, button.dataset.correct);
     });
+    
     if (shuffledQuestions.length > currentQuestionIndex + 1){
         nextbutton.classList.remove('hide');
+
+    }
+    if (!quizOver && currentQuestionIndex < 10){
+        let randomQuestion;
+        do {
+            randomQuestion = Math.floor(Math.random() * questions.length);
+        } while (questionTracker.includes(randomQuestion));    
+        questionTracker.push(randomQuestion); 
+        }else {
+        displayEndScore();
+        quizOver = true;
+       
     }
 }
 //show the right and wrong answers after clicking,
@@ -115,6 +130,14 @@ function settingStatus(element, correct) {
 function clearUp(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
+}
+
+function displayEndScore(){
+    questionContainer.classList.add('hide');
+    scoreValue.innerText = currentScore + ' / ' + questions.length;
+    nextbutton.classList.add('hide');
+    startButton.innerText = 'Want to play again?';
+    startButton.classList.remove('hide')
 }
 // Model box section, code from w3school
 // Display model box When  user clicks on the rules button.
