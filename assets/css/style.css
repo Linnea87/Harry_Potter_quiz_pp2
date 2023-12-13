@@ -1,178 +1,180 @@
- @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
- /* General styling */
+/* General styling */
 
- * {
-     font-family: 'Henny Penny';
-     text-align: center;
-     color: #3E270F;
+* {
+    font-family: 'Henny Penny';
+    text-align: center;
+    color: #221404;
 
- }
+}
 
- body {
-     background-image: url(../images/pexels-rdne-stock-project-7978061.webp);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-color: #654F39;
-     min-height: 100vh;
+body {
+    background-image: url(../images/pexels-rdne-stock-project-7978061.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #654F39;
+    min-height: 100vh;
 
- }
+}
 
- /* Styling for header  */
- img {
-     height: 80px;
- }
+/* Styling for header  */
+img {
+    height: 80px;
+}
 
- header {
-     background-color: rgba(213, 183, 106, 0.674);
-     margin-left: 15%;
-     border-radius: 25px;
-     width: 70%;
+header {
+    background-color: rgba(213, 183, 106, 0.674);
+    margin-left: 15%;
+    border-radius: 25px;
+    width: 70%;
+}
+h1 {
+   font-size: 4em; 
+}
+h2 {
+    font-size: 2em;
+}
+#main-div {
+    background-color: rgba(213, 183, 106, 0.674);
+    width: 70%;
+    margin-left: 11%;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
 
+#about-game {
+    border-style: dotted;
+    border-color: #3f2306;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    padding: 15px;
 
- }
+}
 
- #main-div {
-     background-color: rgba(213, 183, 106, 0.674);
-     width: 70%;
-     margin-left: 11%;
-     border-radius: 25px;
-     padding: 25px;
-     margin-bottom: 25px;
+#about-game p {
+    font-size: 1.1em;
+}
 
+#question {
+    font-size: 1.5em;
+    border-style: dotted;
+    border-color: #3f2306;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    padding: 15px;
+}
 
- }
+/* general styling for the answer bottons */
+.button {
+    font-size: 1.2em;
+    width: 60%;
+    padding: 12px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #654f39e8;
+    border: 1px solid #3f2306;
+    box-shadow: 0 2px 4px darkslategray;
+    border-radius: 20px;
+    overflow: visible;
+    transition: all 0.5s;
+}
 
- #about-game {
-     border-style: dotted;
-     border-color: #3f2306;
-     border-radius: 25px;
-     letter-spacing: 1px;
-     margin-bottom: 25px;
-     padding: 15px;
+/* styling  a hover effect when mouseover */
+.button:hover {
+    background-color: #654f3983;
+ 
+}
 
- }
+/* styling to make this buttom pop out from the answer buttons */
+.start-button,
+.next-button,
+.rules-button,
+.timer-score {
+    font-size: 1.1em;
+    width: 120px;
+    padding: 12px;
+    margin: 10px;
+    background-color: rgb(191, 130, 8);
+    box-shadow: 0 2px 4px darkslategray;
+    border: 1px ridge #3f2306;
+    border-radius: 20px;
+    transition: all 0.5s;
 
- #question {
-     border-style: dotted;
-     border-color: #3f2306;
-     border-radius: 25px;
-     letter-spacing: 1px;
-     padding: 15px;
- }
+}
 
- /* general styling for the answer bottons */
- .button {
-     font-size: 14px;
-     width: 60%;
-     padding: 12px;
-     margin: 10px;
-     display: inline-block;
-     background-color: #654f39c0;
-     border: 1px solid #3f2306;
-     ;
-     border-radius: 20px;
-     overflow: visible;
-     cursor: pointer;
-     transition: all 0.5s;
- }
+/* styling  a hover effect when mouseover */
+.start-button:hover,
+.next-button:hover,
+.rules-button:hover {
+    background-color: rgba(192, 131, 8, 0.63);
+   
+}
 
- /* styling  a hover effect when mouseover */
- .button:hover {
-     background-color: rgb(192, 130, 8);
-     color: white;
-     cursor: pointer;
- }
+.correct{
+    background: rgba(0, 128, 0, 0.826);
+}
 
- /* styling to make this buttom pop out from the answer buttons */
- .start-button,
- .next-button,
- .rules-button,
- .timer-score {
-     font-size: 20px;
-     font-size: 14px;
-     width: 120px;
-     padding: 12px;
-     margin: 10px;
-     background-color: #8a5939;
-     border: 1px ridge #3f2306;
-     ;
-     color: white;
-     border-radius: 20px;
-     transition: all 0.5s;
+.incorrect{
+    background: rgba(255, 0, 0, 0.732);
+}
 
- }
+.hide {
+    display: none;
+}
 
- /* styling  a hover effect when mouseover */
- .start-button:hover,
- .next-button:hover,
- .rules-button:hover {
-     background-color: rgb(192, 130, 8);
-     color: white;
- }
+/* The Modal  */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
 
- .correct {
-     background: green;
- }
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
 
- .incorrect {
-     background: red;
- }
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
- .hide {
-     display: none;
- }
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
- /* The Modal  */
- .modal {
-     display: none;
-     /* Hidden by default */
-     position: fixed;
-     /* Stay in place */
-     z-index: 1;
-     /* Sit on top */
-     left: 0;
-     top: 0;
-     width: 100%;
-     /* Full width */
-     height: 100%;
-     /* Full height */
-     overflow: auto;
-     /* Enable scroll if needed */
-     background-color: rgb(0, 0, 0);
-     /* Fallback color */
-     background-color: rgba(0, 0, 0, 0.4);
-     /* Black w/ opacity */
- }
-
- /* Modal Content/Box */
- .modal-content {
-     background-color: #fefefe;
-     margin: 15% auto;
-     /* 15% from the top and centered */
-     padding: 20px;
-     border: 1px solid #888;
-     width: 80%;
-     /* Could be more or less, depending on screen size */
- }
-
- /* The Close Button */
- .close {
-     color: #aaa;
-     float: right;
-     font-size: 28px;
-     font-weight: bold;
- }
-
- .close:hover,
- .close:focus {
-     color: black;
-     text-decoration: none;
-     cursor: pointer;
- }
-
- /* This link sets the stylign for the curser taken from Start https://www.cursors-4u.com */
- * {
-     cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
- }
+/* This link sets the stylign for the curser taken from Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
+}
