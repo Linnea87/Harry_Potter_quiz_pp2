@@ -84,7 +84,6 @@ header  {
 .start-button,
 .next-button, 
 .rules-button,
-.try-again-button,
 .timer-score {
     font-size: 20px;
     font-size: 14px;
@@ -101,8 +100,7 @@ header  {
  /* styling  a hover effect when mouseover */
 .start-button:hover,
 .next-button:hover,
-.rules-button:hover,
-.timer-score:hover { 
+.rules-button:hover { 
     background-color:rgb(192, 130, 8);
     color: white;
 }
