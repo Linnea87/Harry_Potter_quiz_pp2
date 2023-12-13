@@ -10,7 +10,7 @@ const theQuestions = document.getElementById('question');
 const aboutGame = document.getElementById('about-game');
 const nextbutton = document.getElementById('next-button');
 const score = document.getElementById('score');
-const scoreValue =document.getElementById('score-value');
+const scoreValue = document.getElementById('score-value');
 
 // Modal box for the rules, code from w3school
 var modal = document.getElementById('myModal');
@@ -21,12 +21,13 @@ let shuffledQuestions;
 let currentQuestionIndex = 0;
 let currentScore = 0;
 let quizOver = false;
+let  questionTracker = [];
 
 // Eventlistener that makes the different buttons visible */
 startButton.addEventListener('click', startGame);
 nextbutton.addEventListener('click', setNextQuestion);
 
-function startGame(){
+function startGame() {
     // Hide buttons that are not suposed to show 
     startButton.classList.add('hide');
     rulesButton.classList.add('hide');
@@ -54,15 +55,15 @@ function updateScore() {
     renderScore();
 }
 // Update the score by displaying correct clicked answers
-function renderScore(){
+function renderScore() {
     scoreValue.innerText = currentScore;
 
 }
 //Next question. Code from Web Dev Simplified's Javascript tutorial and modified
-function setNextQuestion(){
+function setNextQuestion() {
     resetState(); //clear the current state
-    showQuestion(shuffledQuestions[currentQuestionIndex++]); 
-    
+    showQuestion(shuffledQuestions[currentQuestionIndex++]);
+
 }
 
 //Get questions and answers. Code from Web Dev Simplified's Javascript tutorial and modified
@@ -81,8 +82,8 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
-   
-}  
+
+}
 // clear up the questions and answers and activate the clearing timer display function. Code used from WebDev Simplified's Javascript tutorial and modified
 function resetState() {
     clearUp(document.body);
@@ -96,25 +97,26 @@ function resetState() {
 function selectAnswer(e) {
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct) {
-            button.disable =true;
+            button.disable = true;
         }
-       settingStatus(button, button.dataset.correct);
+        settingStatus(button, button.dataset.correct);
     });
-    
-    if (shuffledQuestions.length > currentQuestionIndex + 1){
+
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextbutton.classList.remove('hide');
 
     }
-    if (!quizOver && currentQuestionIndex < 10){
+    if (!quizOver && currentQuestionIndex < 10) {
         let randomQuestion;
         do {
             randomQuestion = Math.floor(Math.random() * questions.length);
-        } while (questionTracker.includes(randomQuestion));    
-        questionTracker.push(randomQuestion); 
-        }else {
+        } while (questionTracker.includes(randomQuestion));
+        questionTracker.push(randomQuestion);
+    } else {
         displayEndScore();
         quizOver = true;
-       
+        aboutGame.classList.remove('hide');
+
     }
 }
 //show the right and wrong answers after clicking,
@@ -122,7 +124,7 @@ function settingStatus(element, correct) {
     clearUp(element);
     if (correct) {
         element.classList.add('correct');
-    }else {
+    } else {
         element.classList.add('incorrect');
     }
 }
@@ -132,29 +134,31 @@ function clearUp(element) {
     element.classList.remove('incorrect');
 }
 
-function displayEndScore(){
+function displayEndScore() {
+    clearUp(document.body);
     questionContainer.classList.add('hide');
-    scoreValue.innerText = `${currentScore} out of 10`;
+    scoreValue.innerText = `${currentScore} / 10`;
     nextbutton.classList.add('hide');
     startButton.innerText = 'Want to play again?';
     startButton.classList.remove('hide')
+
 }
 // Model box section, code from w3school
 // Display model box When  user clicks on the rules button.
-rules.onclick = function() {
+rules.onclick = function () {
     modal.style.display = "block";
-  }
-  
-  // When users click on "x", the model box closes.
-  span.onclick = function() {
+}
+
+// When users click on "x", the model box closes.
+span.onclick = function () {
     modal.style.display = "none";
-  }
-  
-  // The model box closes when the user clicks anywhere outside the model content.
-  window.onclick = function(event) {
+}
+
+// The model box closes when the user clicks anywhere outside the model content.
+window.onclick = function (event) {
     if (event.target == modal) {
-      modal.style.display = "none";
+        modal.style.display = "none";
     }
-  }
+}
 
 

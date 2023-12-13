@@ -94,7 +94,8 @@ const questions = [
             {text:"Nimbus 2000", correct: true},
             {text:"Hoover", correct: false},
             {text:"firebolt", correct: false},
-        ]
+        ],
+        
     },
     {
         question: "Which professor teaches flying lessons?",
