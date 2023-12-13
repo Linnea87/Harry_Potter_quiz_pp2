@@ -102,7 +102,6 @@ header  {
 .start-button:hover,
 .next-button:hover,
 .rules-button:hover,
-.try-again-button:hover,
 .timer-score:hover { 
     background-color:rgb(192, 130, 8);
     color: white;
