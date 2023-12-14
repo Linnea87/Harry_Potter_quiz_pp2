@@ -35,8 +35,8 @@ function startGame() {
     startButton.classList.add('hide');
     rulesButton.classList.add('hide');
     aboutGame.classList.add('hide');
-   gameText.classList.add('hide');
-   gameImage.classList.add('hide');
+    gameText.classList.add('hide');
+    gameImage.classList.add('hide');
     // keep track of which questions are already used
     questionTracker = [];
     // Shuffle the questions and initialize variables
@@ -45,7 +45,7 @@ function startGame() {
     //Clear the current score
     currentScore = 0;
     renderScore(); // Update the score 
-    score.classList.remove('hide') //show the score
+    score.classList.remove('hide'); //show the score
     questionContainer.classList.remove('hide');
     setNextQuestion();
     answerButtons.classList.remove('hide');
@@ -56,7 +56,7 @@ function startGame() {
 //update the player's score. Code inspired from Web Dev Simplified
 
 function updateScore() {
-    currentScore++ //increment the score
+    currentScore++; //increment the score
     renderScore();
 }
 // Update the score by displaying correct clicked answers
@@ -145,25 +145,25 @@ function displayEndScore() {
     scoreValue.innerText = `${currentScore} / 10`;
     nextbutton.classList.add('hide');
     startButton.innerText = 'Want to play again?';
-    startButton.classList.remove('hide')
+    startButton.classList.remove('hide');
 
 }
 // Model box section, code from w3school
 // Display model box When  user clicks on the rules button.
 rules.onclick = function () {
     modal.style.display = "block";
-}
+};
 
 // When users click on "x", the model box closes.
 span.onclick = function () {
     modal.style.display = "none";
-}
+};
 
 // The model box closes when the user clicks anywhere outside the model content.
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+};
 
 
