@@ -34,42 +34,42 @@ header {
 h1 {
    font-size: 4em; 
 }
-
+/* General styling for main section */
 #main-div {
-    background-color: rgba(213, 183, 106, 0.867);
+    background-color: rgba(213, 183, 106, 0.912);
     width: 70%;
     margin-left: 11%;
     border-radius: 25px;
     padding: 25px;
     margin-bottom: 25px;
 }
-
+/* Styling for about-game content */
 #about-game {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #3f2306 dotted;
-    border-radius: 10px;  
+   
 }
 
 #image img {
-    padding-top: 3%;
-    margin-left: 10%;
-    width: 120%;
+
+    margin-left: 5%;
+    width:115%;
     height: 100%;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px darkslategray;
     
 }
 #text {
-    font-size: 17px;
-    padding-right: 10%;
+    text-shadow: 0 2px 4px #654f39d2;
+    font-size: 19px;
     padding-top: 1%;
-    margin-left: 15%;    
+    margin-left: 10%;  
+     
 }
-
 
 #question {
     font-size: 1.5em;
-    border-style: dotted;
     border-color: #3f2306;
     border-radius: 25px;
     letter-spacing: 1px;
@@ -155,10 +155,8 @@ h1 {
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
-    background-color: rgb(242, 234, 234);
-    /* Fallback color */
-    background-color: rgb(213, 183, 106);
-    /* Black w/ opacity */
+    background-color: #755d48;
+ 
 }
 
 /* Modal Content Box */
