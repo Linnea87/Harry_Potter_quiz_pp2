@@ -10,12 +10,13 @@
 }
 
 body {
-    background-image: url(../images/pexels-rdne-stock-project-7978061.webp);
+    background-image: url(../images/great-hall-harry-potter-desktop-zjejeshp84mf1tc7.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #654F39;
-    min-height: 100vh;
+    max-width: 100%;
+    height: auto;
 
 }
 
