@@ -1,9 +1,5 @@
 //code being used from other creators have been outlined next to the function
 
-// imports my questions.js file to my script.js file 
-import questions from '..questions.js';
-console.log('here in script.js file',questions);
-
 // Variables 
 const startButton = document.getElementById('start-button');
 const rulesButton = document.getElementById('game-rules-button');
@@ -32,6 +28,7 @@ let questionTracker = [];
 // Eventlistener that makes the different buttons visible 
 startButton.addEventListener('click', startGame);
 nextbutton.addEventListener('click', setNextQuestion);
+
 
 // Ask the player to press start game 
 // no questions/answer options will be available until pressing "Start Game". 
@@ -93,7 +90,9 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
+  
 }
+
 
 // Clear up the questions and answers and activate the clearing timer display function. Code used from WebDev Simplified's Javascript tutorial and modified
 function resetState() {

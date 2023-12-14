@@ -187,7 +187,6 @@ const questions = [
             {text:"Hufflepuff", correct: false},
         ]
     },   
-
+ 
 ];
-// let me import this file to my scrip.js file
-export default questions;
+
