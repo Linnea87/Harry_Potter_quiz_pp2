@@ -8,9 +8,12 @@ const resultsContainer = document.getElementById('results-container');
 const questionContainer = document.getElementById('question-container');
 const theQuestions = document.getElementById('question');
 const aboutGame = document.getElementById('about-game');
+const gameText = document.getElementById('text');
+const gameImage = document.getElementById('image');
 const nextbutton = document.getElementById('next-button');
 const score = document.getElementById('score');
 const scoreValue = document.getElementById('score-value');
+
 
 // Modal box for the rules, code from w3school
 var modal = document.getElementById('myModal');
@@ -21,7 +24,7 @@ let shuffledQuestions;
 let currentQuestionIndex = 0;
 let currentScore = 0;
 let quizOver = false;
-let  questionTracker = [];
+let questionTracker = [];
 
 // Eventlistener that makes the different buttons visible */
 startButton.addEventListener('click', startGame);
@@ -32,6 +35,8 @@ function startGame() {
     startButton.classList.add('hide');
     rulesButton.classList.add('hide');
     aboutGame.classList.add('hide');
+   gameText.classList.add('hide');
+   gameImage.classList.add('hide');
     // keep track of which questions are already used
     questionTracker = [];
     // Shuffle the questions and initialize variables

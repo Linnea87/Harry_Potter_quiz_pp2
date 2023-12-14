@@ -34,11 +34,9 @@ header {
 h1 {
    font-size: 4em; 
 }
-h2 {
-    font-size: 2em;
-}
+
 #main-div {
-    background-color: rgba(213, 183, 106, 0.674);
+    background-color: rgba(213, 183, 106, 0.867);
     width: 70%;
     margin-left: 11%;
     border-radius: 25px;
@@ -47,18 +45,27 @@ h2 {
 }
 
 #about-game {
-    border-style: dotted;
-    border-color: #3f2306;
-    border-radius: 25px;
-    letter-spacing: 1px;
-    margin-bottom: 25px;
-    padding: 15px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #3f2306 dotted;
+    border-radius: 10px;  
 }
 
-#about-game p {
-    font-size: 1.1em;
+#image img {
+    padding-top: 3%;
+    margin-left: 10%;
+    width: 120%;
+    height: 100%;
+    
 }
+#text {
+    font-size: 17px;
+    padding-right: 10%;
+    padding-top: 1%;
+    margin-left: 15%;    
+}
+
 
 #question {
     font-size: 1.5em;
@@ -136,6 +143,7 @@ h2 {
     height: 50%;
 }
 .modal {
+    display: none;
     /* Sit on top */
     position: fixed;
     margin-left: 20%;
