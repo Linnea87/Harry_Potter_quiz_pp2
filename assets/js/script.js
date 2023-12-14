@@ -1,5 +1,9 @@
 //code being used from other creators have been outlined next to the function
 
+// imports my questions.js file to my script.js file
+import questions from '..questions.js';
+console.log('here in script.js file',questions);
+
 // Variables 
 const startButton = document.getElementById('start-button');
 const rulesButton = document.getElementById('game-rules-button');
@@ -13,7 +17,6 @@ const gameImage = document.getElementById('image');
 const nextbutton = document.getElementById('next-button');
 const score = document.getElementById('score');
 const scoreValue = document.getElementById('score-value');
-
 
 // Modal box for the rules, code from w3school
 var modal = document.getElementById('myModal');
@@ -87,8 +90,8 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
-
 }
+
 // clear up the questions and answers and activate the clearing timer display function. Code used from WebDev Simplified's Javascript tutorial and modified
 function resetState() {
     clearUp(document.body);
