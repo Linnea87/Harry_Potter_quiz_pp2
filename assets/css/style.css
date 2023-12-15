@@ -122,6 +122,11 @@ h1 {
    
 }
 
+.timer-score,
+.next-button {
+    width: 30%;
+}
+
 .correct{
     background: rgba(0, 128, 0, 0.826);
 }
