@@ -110,6 +110,7 @@ function selectAnswer(e) {
             button.disable = true;
         }
         settingStatus(button, button.dataset.correct);
+        button.classList.add('answered');
     });
 
     if (shuffledQuestions.length > currentQuestionIndex + 1) {

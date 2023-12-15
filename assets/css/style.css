@@ -96,7 +96,9 @@ h1 {
     background-color: #654f3983;
  
 }
-
+.button.answered {
+    pointer-events: none;
+}
 /* styling to make this buttom pop out from the answer buttons */
 .start-button,
 .next-button,
@@ -114,6 +116,11 @@ h1 {
 
 }
 
+.timer-score,
+.next-button {
+    width: 30%;
+}
+
 /* styling  a hover effect when mouseover */
 .start-button:hover,
 .next-button:hover,
@@ -122,10 +129,10 @@ h1 {
    
 }
 
-.timer-score,
-.next-button {
-    width: 30%;
-}
+
+
+
+
 
 .correct{
     background: rgba(0, 128, 0, 0.826);
