@@ -96,6 +96,7 @@ h1 {
     background-color: #654f3983;
  
 }
+/* Removes the hover effect when user select a answer */
 .button.answered {
     pointer-events: none;
 }

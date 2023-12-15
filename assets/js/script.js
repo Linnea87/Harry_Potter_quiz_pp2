@@ -70,13 +70,26 @@ function renderScore() {
 // Prepare for the next question. Code from Web Dev Simplified's Javascript tutorial and modified
 function setNextQuestion() {
     resetState(); //clear the current state
-    showQuestion(shuffledQuestions[currentQuestionIndex++]);
+    if (!quizOver && currentQuestionIndex < 10) {
+        let randomQuestion;
+        do {
+            randomQuestion = Math.floor(Math.random() * questions.length);
+        } while (questionTracker.includes(randomQuestion));
+        questionTracker.push(randomQuestion);
+        showQuestion(shuffledQuestions[currentQuestionIndex++]);
+    }else {
+        quizOver = true;
+        questionContainer.classList.add('hide');
+        nextbutton.classList.add('hide');
+        aboutGame.classList.remove('hide');
+        displayEndScore(scoreValue);
+    }
 
 }
 
 // displaying questions and answers. Code from Web Dev Simplified's Javascript tutorial and modified
 function showQuestion(question) {
-    theQuestions.innerText = question.question;
+        theQuestions.innerText = question.question;
     question.answers.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
@@ -105,11 +118,17 @@ function resetState() {
 
 // Hide butttons- if the chosen answer is correct. Code used from WebDev Simplified's Javascript tutorial and modified
 function selectAnswer(e) {
-    Array.from(answerButtons.children).forEach(button => {
+
+    if (!quizOver) {
+        const selectedButton = e.target;
+        const correct = selectedButton.dataset.correct === 'true';
+    }
+   Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct) {
             button.disable = true;
         }
         settingStatus(button, button.dataset.correct);
+        // Removes hover effect when user have select a answer
         button.classList.add('answered');
     });
 
@@ -117,15 +136,11 @@ function selectAnswer(e) {
         nextbutton.classList.remove('hide');
 
     }
-    if (!quizOver && currentQuestionIndex < 10) {
-        let randomQuestion;
-        do {
-            randomQuestion = Math.floor(Math.random() * questions.length);
-        } while (questionTracker.includes(randomQuestion));
-        questionTracker.push(randomQuestion);
-    } else {
+     else {
         displayEndScore();
         quizOver = true;
+        questionContainer.classList.add('hide');
+        nextbutton.classList.add('hide');
         aboutGame.classList.remove('hide');
 
     }
@@ -146,12 +161,9 @@ function clearUp(element) {
 }
 // Display final score and option to play again
 function displayEndScore() {
-    clearUp(document.body);
-    questionContainer.classList.add('hide');
     scoreValue.innerText = `${currentScore} / 10`;
-    nextbutton.classList.add('hide');
-    startButton.innerText = 'Want to play again?';
-    startButton.classList.remove('hide');
+   
+   
 
 }
 // Model box section, code from w3school
