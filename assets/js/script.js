@@ -10,9 +10,10 @@ const theQuestions = document.getElementById('question');
 const aboutGame = document.getElementById('about-game');
 const gameText = document.getElementById('text');
 const gameImage = document.getElementById('image');
-const nextbutton = document.getElementById('next-button');
+const nextButton = document.getElementById('next-button');
 const score = document.getElementById('score');
 const scoreValue = document.getElementById('score-value');
+const againButton = document.getElementById('again-button');
 
 // Modal box for the rules, code from w3school
 var modal = document.getElementById('myModal');
@@ -27,7 +28,10 @@ let questionTracker = [];
 
 // Eventlistener that makes the different buttons visible 
 startButton.addEventListener('click', startGame);
-nextbutton.addEventListener('click', setNextQuestion);
+nextButton.addEventListener('click', setNextQuestion);
+againButton.addEventListener('click', function(e){
+    location.reload();
+}, false);
 
 
 // Ask the player to press start game 
@@ -37,6 +41,7 @@ function startGame() {
     // Hide buttons that are not suposed to show 
     startButton.classList.add('hide');
     rulesButton.classList.add('hide');
+    againButton.classList.add('hide');
     aboutGame.classList.add('hide');
     gameText.classList.add('hide');
     gameImage.classList.add('hide');
@@ -80,8 +85,11 @@ function setNextQuestion() {
     }else {
         quizOver = true;
         questionContainer.classList.add('hide');
-        nextbutton.classList.add('hide');
+        nextButton.classList.add('hide');
         aboutGame.classList.remove('hide');
+        gameText.classList.remove('hide');
+        gameImage.classList.remove('hide');
+        againButton.classList.remove('hide');
         displayEndScore(scoreValue);
     }
 
@@ -109,8 +117,8 @@ function showQuestion(question) {
 
 // Clear up the questions and answers and activate the clearing timer display function. Code used from WebDev Simplified's Javascript tutorial and modified
 function resetState() {
-    clearUp(document.body);
-    nextbutton.classList.add('hide');
+  
+    nextButton.classList.add('hide');
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -118,11 +126,12 @@ function resetState() {
 
 // Hide butttons- if the chosen answer is correct. Code used from WebDev Simplified's Javascript tutorial and modified
 function selectAnswer(e) {
-
+    // Reload the quiz so user van play again
     if (!quizOver) {
         const selectedButton = e.target;
         const correct = selectedButton.dataset.correct === 'true';
     }
+
    Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct) {
             button.disable = true;
@@ -133,15 +142,17 @@ function selectAnswer(e) {
     });
 
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
-        nextbutton.classList.remove('hide');
+        nextButton.classList.remove('hide');
 
     }
      else {
         displayEndScore();
         quizOver = true;
         questionContainer.classList.add('hide');
-        nextbutton.classList.add('hide');
+        nextButton.classList.add('hide');
+        againButton.classList.remove('hide');
         aboutGame.classList.remove('hide');
+        displayEndScore();
 
     }
 }
@@ -159,8 +170,10 @@ function clearUp(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
 }
+   
 // Display final score and option to play again
 function displayEndScore() {
+    aboutGame.innerText = ""
     scoreValue.innerText = `${currentScore} / 10`;
    
    

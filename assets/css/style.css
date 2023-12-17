@@ -6,7 +6,6 @@
     font-family: 'Henny Penny';
     text-align: center;
     color: #221404;
-
 }
 
 body {
@@ -16,7 +15,7 @@ body {
     background-position: center;
     background-color: #654F39;
     max-width: 100%;
-    height: auto;
+    height:auto;
 
 }
 
@@ -38,13 +37,16 @@ h1 {
 #main-div {
     background-color: rgba(213, 183, 106, 0.912);
     width: 70%;
-    margin-left: 11%;
+    height: auto;
+    margin-left: 13%;
     border-radius: 25px;
     padding: 25px;
-    margin-bottom: 25px;
+    margin: bottom 100%;;
 }
 /* Styling for about-game content */
 #about-game {
+    width: 90%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,18 +55,18 @@ h1 {
 
 #image img {
 
-    margin-left: 5%;
-    width:115%;
-    height: 100%;
+    margin-left: 10%;
+    width:100%;
+    height: auto;
     border-radius: 10%;
     box-shadow: 0 2px 4px darkslategray;
     
 }
 #text {
     text-shadow: 0 2px 4px #654f39d2;
-    font-size: 19px;
+    font-size: 17px;
     padding-top: 1%;
-    margin-left: 10%;  
+    margin-left: 11%;  
      
 }
 
@@ -104,6 +106,7 @@ h1 {
 .start-button,
 .next-button,
 .rules-button,
+.again-button,
 .timer-score {
     font-size: 1.1em;
     width: 120px;
@@ -118,7 +121,8 @@ h1 {
 }
 
 .timer-score,
-.next-button {
+.next-button,
+.again-button {
     width: 30%;
 }
 
@@ -129,11 +133,6 @@ h1 {
     background-color: rgba(192, 131, 8, 0.63);
    
 }
-
-
-
-
-
 
 .correct{
     background: rgba(0, 128, 0, 0.826);
@@ -200,3 +199,4 @@ h1 {
 * {
     cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
 }
+
