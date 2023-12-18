@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-color: #654F39;
     max-width: 100%;
-    height:auto;
+    height: auto;
 
 }
 
@@ -30,9 +30,11 @@ header {
     border-radius: 25px;
     width: 70%;
 }
+
 h1 {
-   font-size: 4em; 
+    font-size: 4em;
 }
+
 /* General styling for main section */
 #main-div {
     background-color: rgba(213, 183, 106, 0.912);
@@ -41,8 +43,10 @@ h1 {
     margin-left: 13%;
     border-radius: 25px;
     padding: 25px;
-    margin: bottom 100%;;
+    margin: bottom 100%;
+    ;
 }
+
 /* Styling for about-game content */
 #about-game {
     width: 90%;
@@ -50,24 +54,25 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 #image img {
 
     margin-left: 10%;
-    width:100%;
+    width: 100%;
     height: auto;
     border-radius: 10%;
     box-shadow: 0 2px 4px darkslategray;
-    
+
 }
+
 #text {
     text-shadow: 0 2px 4px #654f39d2;
     font-size: 17px;
     padding-top: 1%;
-    margin-left: 11%;  
-     
+    margin-left: 11%;
+
 }
 
 #question {
@@ -96,12 +101,14 @@ h1 {
 /* styling  a hover effect when mouseover */
 .button:hover {
     background-color: #654f3983;
- 
+
 }
+
 /* Removes the hover effect when user select a answer */
 .button.answered {
     pointer-events: none;
 }
+
 /* styling to make this buttom pop out from the answer buttons */
 .start-button,
 .next-button,
@@ -131,14 +138,14 @@ h1 {
 .next-button:hover,
 .rules-button:hover {
     background-color: rgba(192, 131, 8, 0.63);
-   
+
 }
 
-.correct{
+.correct {
     background: rgba(0, 128, 0, 0.826);
 }
 
-.incorrect{
+.incorrect {
     background: rgba(255, 0, 0, 0.732);
 }
 
@@ -154,6 +161,7 @@ h1 {
     width: 100%;
     height: 50%;
 }
+
 .modal {
     display: none;
     /* Sit on top */
@@ -168,7 +176,7 @@ h1 {
     overflow: auto;
     /* Enable scroll if needed */
     background-color: #755d48;
- 
+
 }
 
 /* Modal Content Box */
@@ -181,8 +189,8 @@ h1 {
 
 /* The Close Button */
 .close {
-    color:black;
-   float: inline-end;
+    color: black;
+    float: inline-end;
     font-size: 25px;
     font-weight: bold;
 
@@ -199,4 +207,3 @@ h1 {
 * {
     cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
 }
-

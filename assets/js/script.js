@@ -29,7 +29,7 @@ let questionTracker = [];
 // Eventlistener that makes the different buttons visible 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', setNextQuestion);
-againButton.addEventListener('click', function(e){
+againButton.addEventListener('click', function (e) {
     location.reload();
 }, false);
 
@@ -82,7 +82,9 @@ function setNextQuestion() {
         } while (questionTracker.includes(randomQuestion));
         questionTracker.push(randomQuestion);
         showQuestion(shuffledQuestions[currentQuestionIndex++]);
-    }else {
+
+
+    } else {
         quizOver = true;
         questionContainer.classList.add('hide');
         nextButton.classList.add('hide');
@@ -97,7 +99,7 @@ function setNextQuestion() {
 
 // displaying questions and answers. Code from Web Dev Simplified's Javascript tutorial and modified
 function showQuestion(question) {
-        theQuestions.innerText = question.question;
+    theQuestions.innerText = question.question;
     question.answers.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
@@ -108,16 +110,17 @@ function showQuestion(question) {
                 updateScore();
             });
         }
+      
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
-  
+
 }
 
 
 // Clear up the questions and answers and activate the clearing timer display function. Code used from WebDev Simplified's Javascript tutorial and modified
 function resetState() {
-  
+
     nextButton.classList.add('hide');
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
@@ -132,7 +135,7 @@ function selectAnswer(e) {
         const correct = selectedButton.dataset.correct === 'true';
     }
 
-   Array.from(answerButtons.children).forEach(button => {
+    Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct) {
             button.disable = true;
         }
@@ -145,7 +148,7 @@ function selectAnswer(e) {
         nextButton.classList.remove('hide');
 
     }
-     else {
+    else {
         displayEndScore();
         quizOver = true;
         questionContainer.classList.add('hide');
@@ -170,13 +173,13 @@ function clearUp(element) {
     element.classList.remove('correct');
     element.classList.remove('incorrect');
 }
-   
+
 // Display final score and option to play again
 function displayEndScore() {
     aboutGame.innerText = ""
     scoreValue.innerText = `${currentScore} / 10`;
-   
-   
+
+
 
 }
 // Model box section, code from w3school
