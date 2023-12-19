@@ -129,10 +129,10 @@ function resetState() {
 
 // Hide butttons- if the chosen answer is correct. Code used from WebDev Simplified's Javascript tutorial and modified
 function selectAnswer(e) {
-    // Reload the quiz so user van play again
+    // Reload the quiz so user can play again
     if (!quizOver) {
         const selectedButton = e.target;
-        const correct = selectedButton.dataset.correct === 'true';
+        
     }
 
     Array.from(answerButtons.children).forEach(button => {
