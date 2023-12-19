@@ -38,9 +38,9 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 
 ## Credits
 ### Question/Answer
-All quiz questions and answers are from https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/
+All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/)
 ### Code
 ### Images and Icons
-The favicon icon is from https://icons8.com/icon/set/harry-potter/wired and has been converted with the Favicon.ico converter.
+The favicon icon is from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the Favicon.ico converter.
 
 
