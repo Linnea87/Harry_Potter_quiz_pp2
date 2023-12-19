@@ -158,7 +158,7 @@ const questions = [
             {text:"Avada Kedavra", correct: false},
             {text:"Accio", correct: false},
         ],
-        imagePath: "assets/images/question-images/q20.webp",
+        imagePath: "assets/images/question-images/q14.webp",
         imageAlt:"",
     },
     {
