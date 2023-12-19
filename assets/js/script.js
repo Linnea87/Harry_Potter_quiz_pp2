@@ -114,6 +114,10 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
+    const image = document.getElementById('question-image');
+    image.src = question.imagePath;
+    image.alt = question.imageAlt;
+   
 
 }
 

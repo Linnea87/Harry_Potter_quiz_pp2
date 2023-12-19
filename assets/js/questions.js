@@ -10,7 +10,8 @@ const questions = [
             {text:"sectumsempra", correct: true},
             {text:"Avada Kedavra", correct: false},
 
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     }, 
     {
         question: "How does Harry manage to breathe underwater during the second task of the Triwizard Tournament?",
@@ -20,7 +21,8 @@ const questions = [
             {text:"He eats gillyweed", correct: true},
             {text:"He performs a bubble-head charm", correct: false},
 
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     }, 
     {
         question: "Who guards the entrance to the Gryffindor common room?",
@@ -30,7 +32,8 @@ const questions = [
             {text:"The Bloody Baron", correct: false},
             {text:"The fat lady", correct: true},
 
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question: "Who is NOT a member of the Order of the Phoenix?",
@@ -40,7 +43,8 @@ const questions = [
             {text:"Professor Snape", correct: false},
             {text:"Remus Lupin", correct: false},
 
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question: "What does the spell Obliviate do?",
@@ -49,7 +53,8 @@ const questions = [
             {text: "Sending someone to the Netherworld", correct: false},
             {text: "Removes parts of someone's memory", correct: true },
             {text: "Make objects invisible", correct: false},
-        ]   
+        ],
+        imagepath: "assets/images/question-images/q20.webp"  
     },
     {
         question: "The three types of balls used in Quidditch are Bludgers, Snitches and...?",
@@ -58,7 +63,8 @@ const questions = [
             {text: "Wiffles", correct: false},
             {text: "Bocce", correct: false},
             {text: "Foozles", correct: false},
-        ]   
+        ],
+        imagepath: "assets/images/question-images/q20.webp"   
     }, 
     {
         question: "Who has stolen Harry's letter from Ron and Hermione at the beginning of Harry Potter and the Chamber of Secrets?",
@@ -67,7 +73,8 @@ const questions = [
             {text: "Draco Malfoy", correct: false},
             {text: "Dobby", correct: true},
             {text: "The Dursleys", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question: "How many Weasley siblings are there?",
@@ -76,7 +83,8 @@ const questions = [
             {text:"7", correct: true},
             {text:"10", correct: false},
             {text:"3", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question: "From which King's Cross platform does the Hogwarts Express leave?",
@@ -85,7 +93,8 @@ const questions = [
             {text:"Platform 9 3/4", correct: true},
             {text:"Platform 5 3/4", correct: false},
             {text:"Plattform 11 3/4", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question: "What model is the first broom Harry ever gets?",
@@ -95,6 +104,7 @@ const questions = [
             {text:"Hoover", correct: false},
             {text:"firebolt", correct: false},
         ],
+        imagepath: "assets/images/question-images/q20.webp"
         
     },
     {
@@ -104,7 +114,8 @@ const questions = [
             {text:"Sybill Trelawney", correct: false},
             {text:"Charity Burbage", correct: false},
             {text:"Mrs. Hooch", correct: true},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question: "What are the names of Draco Malfoy's two cronies?",
@@ -113,7 +124,8 @@ const questions = [
             {text:"Flint and Boyle", correct: false},
             {text:"Crabbe and Goyle", correct: true},
             {text:"Pike and Zabini", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     }, 
     {
         question: "Which Patronus belongs to Luna Lovegood?",
@@ -122,7 +134,8 @@ const questions = [
             {text:"Rabbit", correct: true},
             {text:"Dog", correct: false},
             {text:"Horse", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     }, 
     {
         question: "What spell did Harry use to kill Lord Voldemort?",
@@ -131,7 +144,8 @@ const questions = [
             {text:"Expecto Patronum", correct: false},
             {text:"Avada Kedavra", correct: false},
             {text:"Accio", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question:"What element is associated with Hufflepuff?",
@@ -140,7 +154,8 @@ const questions = [
             {text:"Earth", correct: true},
             {text:"Air", correct: false},
             {text:"Water", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question:"Which house values courage, bravery and chivalry?",
@@ -149,7 +164,8 @@ const questions = [
             {text:"Slytherin", correct: false},
             {text:"Gryffindor", correct: true},
             {text:"Hufflepuff", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question:"Which of these is a type of Love Potion?",
@@ -158,7 +174,8 @@ const questions = [
             {text:"Polyjuice poition", correct: false},
             {text:"Amortentia", correct: true},
             {text:"Veritaserum", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question:"Which of these are not one of Hagrid's many pets?",
@@ -167,7 +184,8 @@ const questions = [
             {text:"Grawp", correct: true},
             {text:"Aragog", correct: false},
             {text:"Norberta", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     }, 
     {
         question:"Which class did Severus Snape always want to teach?",
@@ -176,7 +194,8 @@ const questions = [
             {text:"Potions", correct: false},
             {text:"Charms", correct: false},
             {text:"Transfiguration", correct: false},
-        ]
+        ],
+        imagepath: "assets/images/question-images/q20.webp"
     },
     {
         question:"What Hogwarts house was Moaning Myrtle in?",
@@ -185,8 +204,10 @@ const questions = [
             {text:"Slytherin", correct: false},
             {text:"Ravenclaw", correct: true},
             {text:"Hufflepuff", correct: false},
-        ]
-    },   
+        ],
+        imagePath: "assets/images/question-images/q20.webp",
+        imageAlt:"",
+    },  
  
 ];
 
