@@ -13,7 +13,7 @@ const gameImage = document.getElementById('image');
 const nextButton = document.getElementById('next-button');
 const score = document.getElementById('score');
 const scoreValue = document.getElementById('score-value');
-const againButton = document.getElementById('again-button');
+const againButton = document.getElementById('again-button');// Reload the quiz so user can play again
 
 // Modal box for the rules, code from w3school
 var modal = document.getElementById('myModal');
@@ -129,11 +129,6 @@ function resetState() {
 
 // Hide butttons- if the chosen answer is correct. Code used from WebDev Simplified's Javascript tutorial and modified
 function selectAnswer(e) {
-    // Reload the quiz so user can play again
-    if (!quizOver) {
-        const selectedButton = e.target;
-        
-    }
 
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct) {
