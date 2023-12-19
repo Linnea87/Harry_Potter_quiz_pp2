@@ -136,7 +136,7 @@ const questions = [
             {text:"Crabbe and Goyle", correct: true},
             {text:"Pike and Zabini", correct: false},
         ],
-        imagePath: "assets/images/question-images/q20.webp",
+        imagePath: "assets/images/question-images/q12.webp",
         imageAlt:"",
     }, 
     {
@@ -180,7 +180,7 @@ const questions = [
             {text:"Gryffindor", correct: true},
             {text:"Hufflepuff", correct: false},
         ],
-        imagePath: "assets/images/question-images/q20.webp",
+        imagePath: "assets/images/question-images/q16.webp",
         imageAlt:"",
     },
     {
@@ -191,7 +191,7 @@ const questions = [
             {text:"Amortentia", correct: true},
             {text:"Veritaserum", correct: false},
         ],
-        imagePath: "assets/images/question-images/q20.webp",
+        imagePath: "assets/images/question-images/q17.webp",
         imageAlt:"",
     },
     {
@@ -213,7 +213,7 @@ const questions = [
             {text:"Charms", correct: false},
             {text:"Transfiguration", correct: false},
         ],
-        imagePath: "assets/images/question-images/q20.webp",
+        imagePath: "assets/images/question-images/q19.webp",
         imageAlt:"",
     },
     {
