@@ -23,7 +23,7 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 
 ## Deployment
 ### Adding, committing and pushing code
-* All code has been pushed to the repository https://github.com/Linnea87/Harry_Potter_quiz_pp2
+* All code has been pushed to the repository [Harry_Potter_quize_pp2](https://github.com/Linnea87/Harry_Potter_quiz_pp2)
 * All code has been regurlary added, committed and pushed throughout the project.
 * The commands being used are `git add <file>`,
   `git commit -m “commit message”` and
@@ -41,6 +41,6 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/)
 ### Code
 ### Images and Icons
-The favicon icon is from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the Favicon.ico converter.
+The favicon icon is from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the [favicon.io](https://favicon.io/favicon-converter/) converter.
 
 
