@@ -114,6 +114,7 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer);
         answerButtons.appendChild(button);
     });
+    // display my images to every question
     const image = document.getElementById('question-image');
     image.src = question.imagePath;
     image.alt = question.imageAlt;
