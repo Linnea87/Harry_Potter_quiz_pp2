@@ -14,8 +14,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #654F39;
-    max-width: 100%;
-    height: auto;
+
+    height: 94vh;
 
 }
 
@@ -37,42 +37,29 @@ h1 {
 
 /* General styling for main section */
 #main-div {
+
     background-color: rgba(213, 183, 106, 0.912);
-    width: 70%;
-    height: auto;
-    margin-left: 13%;
+    width:100vh;
+    height: 45vh;
+    margin-left:14vh;
     border-radius: 25px;
-    padding: 25px;
-    margin: bottom 100%;
-    ;
 }
 
 /* Styling for about-game content */
 #about-game {
-    width: 90%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    background-image: url(../images/style-image/hogwarts-express-1024-x-1024-wallpaper-ogmyhgftuu9bzzke.webp);
+    background-repeat: no-repeat;
+  background-position: top;
+    background-size: cover;
+    height: 35vh;
+    
 }
 
-#image img {
 
-    margin-left: 10%;
-    width: 100%;
-    height: auto;
-    border-radius: 10%;
-    box-shadow: 0 2px 4px darkslategray;
-
-}
 
 #text {
     text-shadow: 0 2px 4px #654f39d2;
-    font-size: 17px;
-    padding-top: 1%;
-    margin-left: 11%;
-
+    font-size:1em ;
 }
 
 #question {

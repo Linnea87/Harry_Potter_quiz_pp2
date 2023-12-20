@@ -9,7 +9,6 @@ const questionContainer = document.getElementById('question-container');
 const theQuestions = document.getElementById('question');
 const aboutGame = document.getElementById('about-game');
 const gameText = document.getElementById('text');
-const gameImage = document.getElementById('image');
 const nextButton = document.getElementById('next-button');
 const score = document.getElementById('score');
 const scoreValue = document.getElementById('score-value');
@@ -43,8 +42,7 @@ function startGame() {
     rulesButton.classList.add('hide');
     againButton.classList.add('hide');
     aboutGame.classList.add('hide');
-    gameText.classList.add('hide');
-    gameImage.classList.add('hide');
+
     // keep track of which questions are already used
     questionTracker = [];
     // Shuffle the questions and initialize variables
@@ -90,7 +88,6 @@ function setNextQuestion() {
         nextButton.classList.add('hide');
         aboutGame.classList.remove('hide');
         gameText.classList.remove('hide');
-        gameImage.classList.remove('hide');
         againButton.classList.remove('hide');
         displayEndScore(scoreValue);
     }
