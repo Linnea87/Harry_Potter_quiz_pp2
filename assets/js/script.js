@@ -8,7 +8,6 @@ const resultsContainer = document.getElementById('results-container');
 const questionContainer = document.getElementById('question-container');
 const theQuestions = document.getElementById('question');
 const aboutGame = document.getElementById('about-game');
-const gameText = document.getElementById('text');
 const nextButton = document.getElementById('next-button');
 const score = document.getElementById('score');
 const scoreValue = document.getElementById('score-value');
@@ -87,7 +86,6 @@ function setNextQuestion() {
         questionContainer.classList.add('hide');
         nextButton.classList.add('hide');
         aboutGame.classList.remove('hide');
-        gameText.classList.remove('hide');
         againButton.classList.remove('hide');
         displayEndScore(scoreValue);
     }
