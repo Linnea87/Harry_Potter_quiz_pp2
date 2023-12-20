@@ -85,7 +85,6 @@ function setNextQuestion() {
         quizOver = true;
         questionContainer.classList.add('hide');
         nextButton.classList.add('hide');
-        aboutGame.classList.remove('hide');
         againButton.classList.remove('hide');
         displayEndScore(scoreValue);
     }
@@ -149,7 +148,6 @@ function selectAnswer(e) {
         questionContainer.classList.add('hide');
         nextButton.classList.add('hide');
         againButton.classList.remove('hide');
-        aboutGame.classList.remove('hide');
         displayEndScore();
 
     }
@@ -171,7 +169,6 @@ function clearUp(element) {
 
 // Display final score and option to play again
 function displayEndScore() {
-    aboutGame.innerText = ""
     scoreValue.innerText = `${currentScore} / 10`;
 
 

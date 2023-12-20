@@ -3,19 +3,25 @@
 /* General styling */
 
 * {
+    margin: 0 auto;
     font-family: 'Henny Penny';
     text-align: center;
-    color: #221404;
+    letter-spacing: 1px;
+    color: #110a01;
+    text-shadow:0 4px 8px #110a017d;
 }
 
 body {
-    background-image: url(../images/style-image/great-hall-harry-potter-desktop-zjejeshp84mf1tc7.webp);
-    background-size: cover;
+    background-image: url(../images/style-image/B1-background.webp);
+   background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+
+    height: 99vh;
+  
+  
     background-color: #654F39;
 
-    height: 94vh;
+
 
 }
 
@@ -26,66 +32,80 @@ img {
 
 header {
     background-color: rgba(213, 183, 106, 0.674);
-    margin-left: 15%;
-    border-radius: 25px;
-    width: 70%;
+    margin: 51px 68px 20px 90px;
+    border-radius: 20px;
+
+ 
+    
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4em; 
 }
 
 /* General styling for main section */
 #main-div {
 
-    background-color: rgba(213, 183, 106, 0.912);
-    width:100vh;
-    height: 45vh;
-    margin-left:14vh;
-    border-radius: 25px;
+    background-color: rgba(213, 183, 106, 0.72);
+    width:80vh;
+    height: 75vh;
+    
 }
 
 /* Styling for about-game content */
 #about-game {
-    background-image: url(../images/style-image/hogwarts-express-1024-x-1024-wallpaper-ogmyhgftuu9bzzke.webp);
-    background-repeat: no-repeat;
-  background-position: top;
-    background-size: cover;
-    height: 35vh;
+    height: 65vh;
+    width: 80vh;
+    background: url(../images/style-image/hogwarts-express-1024-x-1024-wallpaper-ogmyhgftuu9bzzke.webp)
+        no-repeat center /cover;
+    position:relative;   
     
 }
 
+#about-game-text {
+    background-color: #b6e6f687;
+    height:40vh;
+    top:21vh;
+    position: absolute;
+    
+    
+}
 
-
-#text {
-    text-shadow: 0 2px 4px #654f39d2;
-    font-size:1em ;
+#about-game-text p { 
+    margin:1vh;
+    font-size: 1.2em;
+    
+}
+#about-game-text h2 {
+    font-size:1.9em;
 }
 
 #question {
-    text-shadow: 0 2px 4px #654f39d2;
     font-size: 1.5em;
     border-color: #3f2306;
     border-radius: 25px;
-    letter-spacing: 1px;
-    padding: 15px;
+
 }
+
 #question-image {
-   height: 50vh;
-   box-shadow: 0 4px 8px darkslategray;
-
-}
-
-
+    height:30vh;
+    margin-top:1vh;
+    box-shadow: 0 4px 8px darkslategray;
+ 
+ }
+ 
 
 /* general styling for the answer bottons */
+/* general styling for the answer bottons */
+/* general styling for the answer bottons */
+/* general styling for the answer bottons */
 .button {
-    font-size: 1.2em;
-    width: 60%;
-    padding: 12px;
-    margin: 10px;
+    font-size: 1.4em;
+    width: 50%;
+    padding: 6px;
+    margin: 8px;
     display: inline-block;
-    background-color: #654f39e8;
+    background-color: #8e6339fa;
     border: 1px solid #3f2306;
     box-shadow: 0 2px 4px darkslategray;
     border-radius: 20px;
@@ -93,27 +113,26 @@ h1 {
     transition: all 0.5s;
 }
 
-/* styling  a hover effect when mouseover */
-.button:hover {
-    background-color: #654f3983;
-
+.correct {
+    background:green;
 }
 
-/* Removes the hover effect when user select a answer */
-.button.answered {
-    pointer-events: none;
+.incorrect {
+    background: red;
 }
 
+
+/* styling to make this buttom pop out from the answer buttons */
 /* styling to make this buttom pop out from the answer buttons */
 .start-button,
 .next-button,
 .rules-button,
 .again-button,
 .timer-score {
-    font-size: 1.1em;
-    width: 120px;
-    padding: 12px;
+    font-size: 1.3em;
+    padding: 9px;
     margin: 10px;
+    width: 40%;
     background-color: rgb(191, 130, 8);
     box-shadow: 0 2px 4px darkslategray;
     border: 1px ridge #3f2306;
@@ -123,26 +142,27 @@ h1 {
 }
 
 .timer-score,
-.next-button,
-.again-button {
+.next-button {
+    margin:1px;
+    padding:1px;
     width: 30%;
 }
 
 /* styling  a hover effect when mouseover */
+.botton:hover,
 .start-button:hover,
 .next-button:hover,
 .rules-button:hover {
-    background-color: rgba(192, 131, 8, 0.63);
+    background-color:  #653d18f0;;
 
 }
 
-.correct {
-    background: rgba(0, 128, 0, 0.826);
+/* Removes the hover effect when user select a answer */
+.button.answered {
+    pointer-events: none;
 }
 
-.incorrect {
-    background: rgba(255, 0, 0, 0.732);
-}
+
 
 .hide {
     display: none;
@@ -152,16 +172,13 @@ h1 {
 /* The Modal  */
 
 .modal {
-    background-image: url(assets/images/style-image/harry-potter-rules.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: none;
+    display:none;
     /* Sit on top */
     position: fixed;
     margin-left: 20%;
     padding-bottom: 2%;
     top: 3%;
-    width: 25%;
+    width: 50%;
     /* Full width */
     height: 80%;
     /* Full height */
@@ -171,9 +188,9 @@ h1 {
 
 }
 
+
 /* Modal Content Box */
 .modal-content {
-   
     margin-top: 10%;
     padding: 2%;
     border: 1px solid #888;
