@@ -13,21 +13,13 @@
 
 body {
     background-image: url(../images/style-image/B1-background.webp);
-   background-size: cover;
+   background-size: 100%;
+   background-position: center;
     background-repeat: no-repeat;
-
-    height: 100vh;
-  
-  
     background-color: #654F39;
 
 
 
-}
-
-/* Styling for header  */
-img {
-    height: 80px;
 }
 
 header {
@@ -45,17 +37,19 @@ h1 {
 
 /* General styling for main section */
 #main-div {
-
+    border-radius:20px;
     background-color: rgba(213, 183, 106, 0.46);
     height: 80vh;
-    width: 90vh;
+    width: 80vh;
     
 }
 
 /* Styling for about-game content */
 #about-game {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     height: 70vh;
-    width: 90vh;
+    width: 80vh;
     background: url(../images/style-image/hogwarts-express-1024-x-1024-wallpaper-ogmyhgftuu9bzzke.webp)
         no-repeat center /cover;
     position:relative;   
@@ -65,31 +59,32 @@ h1 {
 #about-game-text {
     background-color: #b6e6f6b8;
     width: 65vh;
-    height:45vh;
-    top:23vh;
-    margin-left: 1vh;
+    height:40vh;
+    top:26vh;
+    border-radius:20px;
+    margin-left: 2vh;
     position: absolute;
     
     
 }
 
 #about-game-text p { 
-    font-size: 1.1em;
+    font-size: 1em;
     
 }
 #about-game-text h2 {
-    font-size:1.8em;
+    font-size:1.7em;
 }
 
-
 #question-image {
+    border-radius: 10px;
     height:30vh;
     box-shadow: 0 4px 8px darkslategray;
  
  }
 #question {
     padding: 1vh;
-    font-size: 1.6em;
+    font-size: 1.4em;
     border-color: #3f2306;
   
 
@@ -100,7 +95,7 @@ h1 {
 /* general styling for the answer bottons */
 /* general styling for the answer bottons */
 .button {
-    font-size: 1.4em;;
+    font-size: 1.3em;;
     width: 70%;
     padding: 2px;
     margin: 7px;
@@ -212,6 +207,9 @@ h1 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1200px) {
+
+}
 /* This link sets the stylign for the curser taken from Start https://www.cursors-4u.com */
 * {
     cursor: url(https://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
