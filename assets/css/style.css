@@ -16,7 +16,7 @@ body {
    background-size: cover;
     background-repeat: no-repeat;
 
-    height: 99vh;
+    height: 100vh;
   
   
     background-color: #654F39;
@@ -31,8 +31,8 @@ img {
 }
 
 header {
-    background-color: rgba(213, 183, 106, 0.674);
-    margin: 51px 68px 20px 90px;
+    background-color: rgba(213, 183, 106, 0.46);
+    margin: 20px 68px 20px 90px;
     border-radius: 20px;
 
  
@@ -40,22 +40,22 @@ header {
 }
 
 h1 {
-    font-size: 4em; 
+    font-size: 3em; 
 }
 
 /* General styling for main section */
 #main-div {
 
-    background-color: rgba(213, 183, 106, 0.72);
-    width:80vh;
-    height: 75vh;
+    background-color: rgba(213, 183, 106, 0.46);
+    height: 80vh;
+    width: 90vh;
     
 }
 
 /* Styling for about-game content */
 #about-game {
-    height: 65vh;
-    width: 80vh;
+    height: 70vh;
+    width: 90vh;
     background: url(../images/style-image/hogwarts-express-1024-x-1024-wallpaper-ogmyhgftuu9bzzke.webp)
         no-repeat center /cover;
     position:relative;   
@@ -63,47 +63,47 @@ h1 {
 }
 
 #about-game-text {
-    background-color: #b6e6f687;
-    height:40vh;
-    top:21vh;
+    background-color: #b6e6f6b8;
+    width: 65vh;
+    height:45vh;
+    top:23vh;
+    margin-left: 1vh;
     position: absolute;
     
     
 }
 
 #about-game-text p { 
-    margin:1vh;
-    font-size: 1.2em;
+    font-size: 1.1em;
     
 }
 #about-game-text h2 {
-    font-size:1.9em;
+    font-size:1.8em;
 }
 
-#question {
-    font-size: 1.5em;
-    border-color: #3f2306;
-    border-radius: 25px;
-
-}
 
 #question-image {
     height:30vh;
-    margin-top:1vh;
     box-shadow: 0 4px 8px darkslategray;
  
  }
- 
+#question {
+    padding: 1vh;
+    font-size: 1.6em;
+    border-color: #3f2306;
+  
+
+}
 
 /* general styling for the answer bottons */
 /* general styling for the answer bottons */
 /* general styling for the answer bottons */
 /* general styling for the answer bottons */
 .button {
-    font-size: 1.4em;
-    width: 50%;
-    padding: 6px;
-    margin: 8px;
+    font-size: 1.4em;;
+    width: 70%;
+    padding: 2px;
+    margin: 7px;
     display: inline-block;
     background-color: #8e6339fa;
     border: 1px solid #3f2306;
@@ -143,7 +143,6 @@ h1 {
 
 .timer-score,
 .next-button {
-    margin:1px;
     padding:1px;
     width: 30%;
 }
