@@ -13,7 +13,7 @@
 
 body {
     background-image: url(../images/style-image/B1-background.webp);
-   background-size: 100%;
+   background-size: cover;
    background-position: center;
     background-repeat: no-repeat;
     background-color: #654F39;
@@ -39,28 +39,29 @@ h1 {
 #main-div {
     border-radius:20px;
     background-color: rgba(213, 183, 106, 0.46);
-    height: 80vh;
-    width: 80vh;
+    height: 65vh;
+    width: 85%;
     
 }
 
 /* Styling for about-game content */
 #about-game {
+    background-image: url(../images/style-image/index.webp);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    height: 70vh;
-    width: 80vh;
-    background: url(../images/style-image/hogwarts-express-1024-x-1024-wallpaper-ogmyhgftuu9bzzke.webp)
-        no-repeat center /cover;
-    position:relative;   
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+
     
 }
 
 #about-game-text {
     background-color: #b6e6f6b8;
-    width: 65vh;
-    height:40vh;
-    top:26vh;
+    width: 75vh;
+    height:36vh;
+    top:37vh;
     border-radius:20px;
     margin-left: 2vh;
     position: absolute;
@@ -69,11 +70,11 @@ h1 {
 }
 
 #about-game-text p { 
-    font-size: 1em;
+    font-size: 0.8em;
     
 }
 #about-game-text h2 {
-    font-size:1.7em;
+    font-size:1.6em;
 }
 
 #question-image {
@@ -95,10 +96,10 @@ h1 {
 /* general styling for the answer bottons */
 /* general styling for the answer bottons */
 .button {
-    font-size: 1.3em;;
-    width: 70%;
+    font-size: 1em;;
+    width: 45%;
     padding: 2px;
-    margin: 7px;
+    margin: 5px;
     display: inline-block;
     background-color: #8e6339fa;
     border: 1px solid #3f2306;
@@ -124,10 +125,11 @@ h1 {
 .rules-button,
 .again-button,
 .timer-score {
-    font-size: 1.3em;
-    padding: 9px;
-    margin: 10px;
-    width: 40%;
+    font-size: 1.1em;
+    padding: 1px;
+    margin: 5px;
+    width: 45%;
+    margin-top:1.5vh;
     background-color: rgb(191, 130, 8);
     box-shadow: 0 2px 4px darkslategray;
     border: 1px ridge #3f2306;
