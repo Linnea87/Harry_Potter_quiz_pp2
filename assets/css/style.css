@@ -224,8 +224,9 @@ h1 {
     }
 
     header {
-       width:60vh;
-        margin-left:1%;
+        margin-top:2vh;
+       width:55vh;
+        margin-left:1.1%;
         
     }
 
@@ -233,9 +234,9 @@ h1 {
         font-size:2em;
     }
     #main-div {
-        height:95vh;
+        height:98vh;
         width: 55vh;
-        margin-left:3vh;
+        margin-left:1.vh;
     
 
     }
@@ -248,23 +249,25 @@ h1 {
     #about-game-text {
         margin-left:0.1vh;
         width:55vh;
-        top:50vh;
-        height:40vh;
+        top:40vh;
+        height:50vh;
     }
      #about-game-text p {
-         margin-top:1vh;
+         
+        font-size:0.8em;
      }
 
     #about-game-text h2 {
-        font-size:1.2em;
-    }
-     
-    .button {
-        width:70%;
-             
+        font-size:1em;
     }
     #question-image {
         height:20vh;
+    }
+     
+    .button {
+        width:80%;
+        margin:1.2vh;
+             
     }
     
 }
