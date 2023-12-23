@@ -220,7 +220,7 @@ h1 {
 /*responsiveness for smaller screens */
 @media screen and (max-width: 600px) {
     body {
-        height: 135vh;
+        height: 138vh;
     }
 
     header {
@@ -248,15 +248,15 @@ h1 {
     #about-game-text {
         margin-left:0.1vh;
         width:55vh;
-        top:45vh;
-        height:50vh;
+        top:53vh;
+        height:40vh;
     }
      #about-game-text p {
-         margin-top:vh;
+         margin-top:1vh;
      }
 
     #about-game-text h2 {
-        font-size:1.2em;
+        font-size:1.3em;
     }
      
     .button {
