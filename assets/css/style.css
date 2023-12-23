@@ -184,9 +184,9 @@ h1 {
     margin-left: 20%;
     padding-bottom: 2%;
     top: 3%;
-    width: 50%;
+    width: 50vh;
     /* Full width */
-    height: 80%;
+    height: 70%;
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
@@ -196,19 +196,26 @@ h1 {
 
 
 /* Modal Content Box */
+
 .modal-content {
     margin-top: 10%;
     padding: 2%;
     border: 1px solid #888;
     width: 50%;
 }
+#rules-image {
+ width: 100%;
+ height: 40vh;
+ 
 
+}
 /* The Close Button */
 .close {
     color: black;
     float: inline-end;
     font-size: 25px;
     font-weight: bold;
+
 
 }
 
