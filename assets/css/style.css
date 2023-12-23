@@ -179,15 +179,12 @@ h1 {
 
 .modal {
     display: none;
-    /* Sit on top */
     position: fixed;
     margin-left: 20%;
     padding-bottom: 2%;
     top: 3%;
     width: 50vh;
-    /* Full width */
     height: 70%;
-    /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
     background-color: #755d48;
@@ -304,6 +301,13 @@ h1 {
     .next-button {
         font-size: 1.1em;
         width: 40%;
+    }
+    .modal {
+        height: 65%;
+        width: 40vh;
+    }
+    #rules-image {
+        height: 30vh;
     }
 
 }
