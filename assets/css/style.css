@@ -82,6 +82,7 @@ h1 {
 #question-image {
     border-radius: 10px;
     height: 30vh;
+    margin:1vh;
     box-shadow: 0 4px 8px darkslategray;
 
 }
@@ -219,40 +220,53 @@ h1 {
 /*responsiveness for smaller screens */
 @media screen and (max-width: 600px) {
     body {
-        height: 170vh;
+        height: 135vh;
     }
 
     header {
-        width: 70vh;
-        margin-left:1px;
+       width:60vh;
+        margin-left:1%;
+        
     }
 
+    h1{
+        font-size:2em;
+    }
     #main-div {
-        height:90vh;
-        width: 70vh;
+        height:95vh;
+        width: 55vh;
+        margin-left:3vh;
     
 
     }
 
     #about-game {
-        height: 75vh;
+        height: 80vh;
 
     }
 
     #about-game-text {
-        margin-left: 1px;
-        width:70vh;
-        top:55vh;
-        height:40vh;
+        margin-left:0.1vh;
+        width:55vh;
+        top:45vh;
+        height:50vh;
     }
+     #about-game-text p {
+         margin-top:vh;
+     }
+
+    #about-game-text h2 {
+        font-size:1.2em;
+    }
+     
     .button {
         width:70%;
              
     }
-    #question-image{
-        height:25vh;
-        margin:2vh;
+    #question-image {
+        height:20vh;
     }
+    
 }
 
 
