@@ -245,7 +245,7 @@ h1 {
     }
 
     #main-div {
-        height: 75vh;
+        height: 70vh;
         width: 50vh;
         margin-left: 3vh;
 
@@ -261,8 +261,8 @@ h1 {
     #about-game-text {
         margin-left: 0.1vh;
         width: 50vh;
-        top: 26vh;
-        height: 45vh;
+        top: 38vh;
+        height: 32vh;
     }
 
     #about-game-text p {
