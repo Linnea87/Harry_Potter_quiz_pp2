@@ -259,15 +259,14 @@ h1 {
     }
 
     #about-game-text {
-        margin-left: 0.1vh;
-        width: 50vh;
+        width: 45vh;
         top: 38vh;
-        height: 32vh;
+        height: 31vh;
     }
 
     #about-game-text p {
 
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     #about-game-text h2 {
@@ -280,7 +279,7 @@ h1 {
     }
 
     #question-image {
-        height: 20vh;
+        height: 18vh;
     }
 
     .button {
@@ -310,6 +309,7 @@ h1 {
     #rules-image {
         height: 30vh;
     }
+
 
 }
 
