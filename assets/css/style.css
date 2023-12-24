@@ -254,23 +254,23 @@ h1 {
     }
 
     #about-game {
-        height: 60vh;
+        height: 55vh;
 
     }
 
     #about-game-text {
         width: 45vh;
-        top: 38vh;
-        height: 31vh;
+        top: 30vh;
+        height: vh;
     }
 
     #about-game-text p {
 
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 
     #about-game-text h2 {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     #question {
@@ -284,8 +284,8 @@ h1 {
 
     .button {
         font-size: 1em;
-        width: 90%;
-        margin: 1vh;
+        width: 80%;
+      
 
     }
 
@@ -294,12 +294,12 @@ h1 {
     .rules-button,
     .again-button,
     .timer-score {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .timer-score,
     .next-button {
-        font-size: 1.1em;
+        font-size: 1em;
         width: 40%;
     }
     .modal {
@@ -309,7 +309,6 @@ h1 {
     #rules-image {
         height: 30vh;
     }
-
 
 }
 
