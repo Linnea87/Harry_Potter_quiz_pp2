@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url(../images/style-image/B1-background.webp);
+    background-image: url(../images/s-image/B1-background.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ h1 {
 
 /* Styling for about-game content */
 #about-game {
-    background-image: url(../images/style-image/i.webp);
+    background-image: url(../images/s-image/i.webp);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     height: 65vh;
