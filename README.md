@@ -15,7 +15,7 @@ The purpose of this website is partly to create a simple quiz based game, where 
 
 
 ## Design
-I wanted to design a Harry Potter game that evokes the feeling of being part of Hogwarts and its magical world in the user. I have chosen colors, images, fonts and mouse pointers in detail to succeed in creating this feeling for the user. 
+I wanted to design a Harry Potter game that evokes the feeling of being part of Hogwarts and its magical world in the user. I have chosen colors, images, typograpy and mouse pointer in detail to succeed in creating this feeling for the user. 
 
 ### Wireframes
 I used wierframes from Balsamiq for this page. These wireframes are rough sketches of how I thought the site could be built to achieve the design I envisioned. Therefore, these sketches may differ from what the actual website looks like.
@@ -31,6 +31,12 @@ I used wierframes from Balsamiq for this page. These wireframes are rough sketch
 #### Mobile
 ![index](docs/wireframes/phone-index.png)
 ![question](docs/wireframes/phone-question.png)
+
+### Typhograpy
+I chose Henny Penny as the font style as I think it creates the magical feeling I want to achieve.
+
+### The mouse pointer
+I wanted the mouse pointer to be a magic wand when playing the game on a laptop or desktop. The cursor I chose is from this page [cursors-4u](https://www.cursors-4u.com). 
 
 ### Color
 I used the <https://coolors.co> tool where I uploaded the background image to create a color scheme that I have since based on when making my color choices.
