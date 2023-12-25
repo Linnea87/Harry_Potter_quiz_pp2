@@ -32,6 +32,12 @@ header {
 
 }
 
+header img {
+    height: 10vh;
+    margin-left:6px;
+ 
+}
+
 h1 {
     font-size: 3em;
 }
