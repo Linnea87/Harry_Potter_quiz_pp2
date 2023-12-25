@@ -78,8 +78,38 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 ![rules](docs/rules.png)
 
 ### Game Section
+* When the user clicks on the Let's fly button, the game starts and the game's homepage is hidden. 
+
+* Instead, the first question is shown with four answer options and a score counter. 
+
+* When the user clicks on one of the answer options, it turns either red or green.
+
+* If the selected answer is correct, the button turns green and the other three turn red to make it clear that the other answer options are incorrect
+
+* If the selected answer is incorrect, the others that are incorrect also turn red and the correct one turns green to make it clear which answer option was correct.
+
+* When all 10 questions have been answered, the user will be directed to the finished section.
+
+#### Question
+![Question](docs/question.png)
+
+#### Selected answer
+![Question-answerd](docs/question-answerd.png)
+
 
 ### Finished Section
+
+
+## Technologies
+* HTML is the main language of this project. CSS for styling in a separate file.
+* JavaScript has been used for the quiz.
+The IDE I used has been Gitpod with Code Institutes template.
+* Git has been used to regularly adding, committing and pushing code to GitHub.
+* All code have been stored at GitHub.
+* The project has been deployed through Git Pages.
+* Favicon Generator has been used for the Favicons.
+* Icon8 has been used for downloading the free favicon image.
+* Wireframes have been designed in Balsamiq.
 
 ## Deployment
 ### Adding, committing and pushing code
@@ -129,10 +159,31 @@ I used Lighthouse in Chrome Dev when i tested the site for both Mobile and Deskt
 
 ![Lighthouse-Mobile](docs/lighthouse-mobile.png)
 
+### Wave 
+The site has been tested in [Wave](https://wave.webaim.org/) with good results No errors or alerts
+![Wave](docs/wave.png)
+
+## Testing
+
+* The website has been tested using the extension "Live Server" throughout the project in the IDE.
+* The website has been checked for the responsivnes in different screen sizes with Dev Tools
+* The website has also been manually tested by me, my family and friends with diferent devices as tablets, mobiles, laptops and desktops throughout the entire project.
+* The website has been tested in different browsers such as Chrome, IE Edge, Firefox, Safari and Opera with no errors. In Safari tho the mouse pointer hade a little black square as background. 
+
+## Bugs
+None
+
 ## Credits
 ### Question/Answer
 All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/)
+
 ### Code
+1. I've been using some code from [WebDev Simplified's Javascript tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k) and [GreatStack's Javascript quiz tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8) 
+
+2. For a deeper understanding of certain functions I've been using the help from [W3Schools](https://www.w3schools.com/js/default.asp), googled alot and read lots of trheeds about other people's problems similar to my own at [StackOverflow.](https://stackoverflow.com/)
+
+3. Got inspired by the student [Rackstorm](https://github.com/Rackstorm), [PdoyleC](https://github.com/PdoyleC) and [Hujanen91](https://github.com/Hujanen91)
+
 ### Images and Icons
 * The favicon icon is taken from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the [favicon.io](https://favicon.io/favicon-converter/) converter.
 
@@ -160,6 +211,9 @@ All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blo
 
 * The 108743720_max image is taken from [fruugo](https://www.fruugo.se/     hedwig-officiella-harry-potter-kartong-cutout-standee-standup/p-42895913-87507724)
 
+## Acknowledgement
+A massive thank you to my mentor Graeme Taylor for providing me good hints, crucial advice, alot of aha-moments when i was stuck,
+pep talks in some stressfull moments, but most of all for his hand to hand guiding on how i implement images to my questions!
 
 
     
