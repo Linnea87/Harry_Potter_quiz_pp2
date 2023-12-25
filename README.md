@@ -36,6 +36,32 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 3. Then I selected the 'Main Branch' and waited for the page to reload.
 4. The page was successfully deployed to GitHub Pages.
 
+## Code Validation
+### HTML
+[W3C - HTML](https://validator.w3.org/) validator shows no errors or warnings in the index.html file.
+
+![W3C-HTML](docs/w3c-html.png)
+
+### CSS
+[W3C - CSS](https://jigsaw.w3.org/css-validator/) validator shows no errors or warnings in style.css file. 
+
+![W3C-CSS](docs/w3c-css.png)
+
+### JavaScript
+
+[Jshint](https://jshint.com/) shows no errors in script.js and questions.js.
+
+* When script.js are tested, Jshint shows that on line 48 and 78 there are one undefined variable. This variable are defined in questions.js and therfore Jshint presents this information. The variable can be found on line 3 in questions.js.
+
+![Jshint-script.js](docs/jshint-script.png)
+
+* When questions.js are tested, Jshint shows that on line 3 there are one unused variable. This variable are used in script.js and therfore Jshint presents this information.
+
+![Jshint-questions.js](docs/jshint-questions.png)
+
+### Lighthouse
+
+
 ## Credits
 ### Question/Answer
 All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/)
