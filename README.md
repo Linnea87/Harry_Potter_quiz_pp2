@@ -4,6 +4,9 @@ This is a quiz with 10 random questions about Harry Potter. The page can be foun
 
 The purpose of this website is partly to create a simple quiz based game, where users get the opportunity to test their Harry Potter knowledge. But even where I get to challenge myself in my knowledge of Html, CSS and JavaScript.
 
+![Mockup](docs/mockup.png)
+
+
 ## Project Goals
 * Create a game that attracts and inspires the user to want to stay and play.
 * Create a game that is responsive on all devises.
