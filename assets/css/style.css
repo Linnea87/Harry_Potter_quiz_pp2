@@ -34,7 +34,7 @@ header {
 
 header img {
     height: 10vh;
-    margin-left:6px;
+
  
 }
 
@@ -244,6 +244,10 @@ h1 {
         width: 55vh;
         margin-left: 1.1%;
 
+    }
+
+    header img {
+        height: 5.5vh;
     }
 
     h1 {
