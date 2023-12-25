@@ -41,6 +41,31 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/)
 ### Code
 ### Images and Icons
-The favicon icon is from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the [favicon.io](https://favicon.io/favicon-converter/) converter.
+1. The favicon icon is from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the [favicon.io](https://favicon.io/favicon-converter/) converter.
 
+2. The q1 image is from [harrypotterfanzone](https://www.harrypotterfanzone.com/pictures/mad-eye-moody-demonstrates-the-unforgivable-curses/) 
+
+3. The q2 image is from [quotev](https://www.quotev.com/story/12951251/Draco-Malfoy-The-Cup-Of-Holy-Sh-/15)
+
+4. The q4 image is from [snapchat](https://t.snapchat.com/vEE1NbA4)
+
+5. The q5 image is from [honorshogwarts04](https://honorshogwarts04.files.wordpress.com/2015/09/obliviate-4.jpg?w=640)
+
+6. The q6 image is from [merchoid](https://www.merchoid.com/media/mf_webp/jpg/media/catalog/product/cache/65c63282a2b3bd0da0ec5b004bcde549/h/a/harrypotter_quidditch_set_9.webp)
+
+7. The q12 image is from [pinterest](https://www.pinterest.se/pin/671247519454677884/)
+
+8. The q18 image is from [wizardingworld](https://www.wizardingworld.com/fact-file/characters-and-pets/fang)
+
+9. The q7-q11, q13-q17 and q19-q20 images is from [wallpapers](https://wallpapers.com/)
+
+10. The rules image is from [pinterest](https://www.pinterest.se/pin/641622278133693828/)
+
+11. The B1-background image is [imgix](from https://imgix.bustle.com/rehost/2016/9/13/4e0b261d-8796-4462-86ec-ee29ceb41e1b.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2 (2))
+
+12. The i.webp image are from wallpapers (https://wallpapers.com/)
+
+
+
+    
 
