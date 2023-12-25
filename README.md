@@ -1,7 +1,24 @@
 # Harry Potter quiz - Project 2
+
+This is a quiz with 10 random questions about Harry Potter. The page can be found here [Harry Potter Quiz](https://linnea87.github.io/Harry_Potter_quiz_pp2/)
+
+The purpose of this website is partly to create a simple quiz based game, where users get the opportunity to test their Harry Potter knowledge. But even where I get to challenge myself in my knowledge of Html, CSS and JavaScript.
+
+## Project Goals
+* Create a game that attracts and inspires the user to want to stay and play.
+* Create a game that is responsive on all devises.
+* Create a game with no errors
+* Create a game for the user to interact with.
+* Create a game that is easy for the user to understand.
+* Create a game with rulses for the user to read
+* create a game where the user can see their scores.
+
+
 ## Design
+I wanted to design a Harry Potter game that evokes the feeling of being part of Hogwarts and its magical world in the user. I have chosen colors, images, fonts and mouse pointers in detail to succeed in creating this feeling for the user. 
+
 ### Wireframes
-I used wierframes from Balsamiq for this page. These wireframes are just rough sketches of how I thought the page would look and therefore they may differ from how the finished page looks.
+I used wierframes from Balsamiq for this page. These wireframes are rough sketches of how I thought the site could be built to achieve the design I envisioned. Therefore, these sketches may differ from what the actual website looks like.
 
 #### Desktop 
 ![index](docs/wireframes/desktop-index.png)
@@ -11,7 +28,7 @@ I used wierframes from Balsamiq for this page. These wireframes are just rough s
 ![index](docs/wireframes/tablet-index.png)
 ![question](docs/wireframes/tablet-question.png)
 
-#### Phone
+#### Mobile
 ![index](docs/wireframes/phone-index.png)
 ![question](docs/wireframes/phone-question.png)
 
@@ -19,7 +36,6 @@ I used wierframes from Balsamiq for this page. These wireframes are just rough s
 I used the <https://coolors.co> tool where I uploaded the background image to create a color scheme that I have since based on when making my color choices.
 
 ![Color-scheme](docs/wireframes/Color.png)
-
 
 ## Deployment
 ### Adding, committing and pushing code
@@ -60,6 +76,15 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 ![Jshint-questions.js](docs/jshint-questions.png)
 
 ### Lighthouse
+I used Lighthouse in Chrome Dev when i tested the site for both Mobile and Desktop, and got good result on prestanda for both devices. 
+
+#### Desktop
+![Lighthouse-Desktop](docs/lighthouse.png)
+
+#### Mobile
+
+![Lighthouse-Mobile](docs/lighthouse-mobile.png)
+
 
 
 ## Credits
@@ -67,29 +92,31 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blog/40-harry-potter-quiz-questions-and-answers/)
 ### Code
 ### Images and Icons
-1. The favicon icon is from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the [favicon.io](https://favicon.io/favicon-converter/) converter.
+* The favicon icon is taken from [icons8](https://icons8.com/icon/set/harry-potter/wired) and has been converted with the [favicon.io](https://favicon.io/favicon-converter/) converter.
 
-2. The q1 image is from [harrypotterfanzone](https://www.harrypotterfanzone.com/pictures/mad-eye-moody-demonstrates-the-unforgivable-curses/) 
+*  The q1 image is taken from [harrypotterfanzone](https://www.harrypotterfanzone.com/pictures/mad-eye-moody-demonstrates-the-unforgivable-curses/) 
 
-3. The q2 image is from [quotev](https://www.quotev.com/story/12951251/Draco-Malfoy-The-Cup-Of-Holy-Sh-/15)
+* The q2 image is taken from [quotev](https://www.quotev.com/story/12951251/Draco-Malfoy-The-Cup-Of-Holy-Sh-/15)
 
-4. The q4 image is from [snapchat](https://t.snapchat.com/vEE1NbA4)
+* The q4 image is taken from [snapchat](https://t.snapchat.com/vEE1NbA4)
 
-5. The q5 image is from [honorshogwarts04](https://honorshogwarts04.files.wordpress.com/2015/09/obliviate-4.jpg?w=640)
+* The q5 image is taken from [honorshogwarts04](https://honorshogwarts04.files.wordpress.com/2015/09/obliviate-4.jpg?w=640)
 
-6. The q6 image is from [merchoid](https://www.merchoid.com/media/mf_webp/jpg/media/catalog/product/cache/65c63282a2b3bd0da0ec5b004bcde549/h/a/harrypotter_quidditch_set_9.webp)
+* The q6 image is taken from [merchoid](https://www.merchoid.com/media/mf_webp/jpg/media/catalog/product/cache/65c63282a2b3bd0da0ec5b004bcde549/h/a/harrypotter_quidditch_set_9.webp)
 
-7. The q12 image is from [pinterest](https://www.pinterest.se/pin/671247519454677884/)
+* The q12 image is taken from [pinterest](https://www.pinterest.se/pin/671247519454677884/)
 
-8. The q18 image is from [wizardingworld](https://www.wizardingworld.com/fact-file/characters-and-pets/fang)
+* The q18 image is taken from [wizardingworld](https://www.wizardingworld.com/fact-file/characters-and-pets/fang)
 
-9. The q7-q11, q13-q17 and q19-q20 images is from [wallpapers](https://wallpapers.com/)
+* The q7-q11, q13-q17 and q19-q20 images is taken from [wallpapers](https://wallpapers.com/)
 
-10. The rules image is from [pinterest](https://www.pinterest.se/pin/641622278133693828/)
+* The rules image is taken from [pinterest](https://www.pinterest.se/pin/641622278133693828/)
 
-11. The B1-background image is from [imgix](https://imgix.bustle.com/rehost/2016/9/13/4e0b261d-8796-4462-86ec-ee29ceb41e1b.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2)
+* The B1-background image is taken from [imgix](https://imgix.bustle.com/rehost/2016/9/13/4e0b261d-8796-4462-86ec-ee29ceb41e1b.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2)
 
-12. The i.webp image are from [wallpapers](https://wallpapers.com/)
+* The i.webp image is taken from [wallpapers](https://wallpapers.com/)
+
+* The 108743720_max image is taken from [fruugo](https://www.fruugo.se/     hedwig-officiella-harry-potter-kartong-cutout-standee-standup/p-42895913-87507724)
 
 
 
