@@ -11,7 +11,7 @@ const questions = [
             {text:"Avada Kedavra", correct: false},
 
         ],
-        imagePath:"assets/images/question-images/q1.webp",
+        imagePath:"assets/images/q-images/q1.webp",
         imageAlt:"Image of when  mad eye moody teaches about the unforgivable curses ",
     }, 
     {
@@ -23,7 +23,7 @@ const questions = [
             {text:"He performs a bubble-head charm", correct: false},
 
         ],
-        imagePath:"assets/images/question-images/q2.webp",
+        imagePath:"assets/images/q-images/q2.webp",
         imageAlt:"Image of the second task of the Triwizard Tournament",
     }, 
     {
@@ -35,7 +35,7 @@ const questions = [
             {text:"The fat lady", correct: true},
 
         ],
-        imagePath:"assets/images/question-images/q3.webp",
+        imagePath:"assets/images/q-images/q3.webp",
         imageAlt:"Image of a wall with some of the hogwarts paintings  ",
     },
     {
@@ -47,7 +47,7 @@ const questions = [
             {text:"Remus Lupin", correct: false},
 
         ],
-        imagePath:"assets/images/question-images/q4.webp",
+        imagePath:"assets/images/q-images/q4.webp",
         imageAlt:"Image of some of the Order of the Phoenix members",
     },
     {
@@ -58,7 +58,7 @@ const questions = [
             {text:"Remove someone's memory", correct: true},
             {text:"Make objects invisible", correct: false},
         ],
-        imagePath:"assets/images/question-images/q5.webp",
+        imagePath:"assets/images/q-images/q5.webp",
         imageAlt:"Image of Hermonie when she cast the obliviate spell", 
     },
     {
@@ -69,7 +69,7 @@ const questions = [
             {text:"Bocce", correct: false},
             {text:"Foozles", correct: false},
         ],
-        imagePath:"assets/images/question-images/q6.webp",
+        imagePath:"assets/images/q-images/q6.webp",
         imageAlt:"Image of the different Quidditch balls ",   
     }, 
     {
@@ -80,7 +80,7 @@ const questions = [
             {text:"Dobby", correct: true},
             {text:"The Dursleys", correct: false},
         ],
-        imagePath:"assets/images/question-images/q7.webp",
+        imagePath:"assets/images/q-images/q7.webp",
         imageAlt:"Image of the wall where you can read that the Chamber of Secrets has opend",
     },
     {
@@ -91,7 +91,7 @@ const questions = [
             {text:"10", correct: false},
             {text:"3", correct: false},
         ],
-        imagePath:"assets/images/question-images/q8.webp",
+        imagePath:"assets/images/q-images/q8.webp",
         imageAlt:"Image of some of the Weasley siblings",
     },
     {
@@ -102,7 +102,7 @@ const questions = [
             {text:"Platform 5 3/4", correct: false},
             {text:"Plattform 11 3/4", correct: false},
         ],
-        imagePath:"assets/images/question-images/q9.webp",
+        imagePath:"assets/images/q-images/q9.webp",
         imageAlt:"Image of the Hogwarts Express",
     },
     {
@@ -113,7 +113,7 @@ const questions = [
             {text:"Hoover", correct: false},
             {text:"firebolt", correct: false},
         ],
-        imagePath:"assets/images/question-images/q10.webp",
+        imagePath:"assets/images/q-images/q10.webp",
         imageAlt:"Image of Harry Potter flying on his broom",
         
     },
@@ -125,7 +125,7 @@ const questions = [
             {text:"Charity Burbage", correct: false},
             {text:"Mrs. Hooch", correct: true},
         ],
-        imagePath:"assets/images/question-images/q11.webp",
+        imagePath:"assets/images/q-images/q11.webp",
         imageAlt:"Image of flying lessons",
     },
     {
@@ -136,7 +136,7 @@ const questions = [
             {text:"Crabbe and Goyle", correct: true},
             {text:"Pike and Zabini", correct: false},
         ],
-        imagePath:"assets/images/question-images/q12.webp",
+        imagePath:"assets/images/q-images/q12.webp",
         imageAlt:"Image of Draco Malfoy, Crabbe and Goyle",
     }, 
     {
@@ -147,7 +147,7 @@ const questions = [
             {text:"Dog", correct: false},
             {text:"Horse", correct: false},
         ],
-        imagePath:"assets/images/question-images/q13.webp",
+        imagePath:"assets/images/q-images/q13.webp",
         imageAlt:"Image of Luna Lovegood",
     }, 
     {
@@ -158,7 +158,7 @@ const questions = [
             {text:"Avada Kedavra", correct: false},
             {text:"Accio", correct: false},
         ],
-        imagePath:"assets/images/question-images/q14.webp",
+        imagePath:"assets/images/q-images/q14.webp",
         imageAlt:"Imgae of Harry Potter and Lord Voldermort",
     },
     {
@@ -169,7 +169,7 @@ const questions = [
             {text:"Air", correct: false},
             {text:"Water", correct: false},
         ],
-        imagePath:"assets/images/question-images/q15.webp",
+        imagePath:"assets/images/q-images/q15.webp",
         imageAlt:"Image of Hufflepuff emblem",
     },
     {
@@ -180,7 +180,7 @@ const questions = [
             {text:"Gryffindor", correct: true},
             {text:"Hufflepuff", correct: false},
         ],
-        imagePath:"assets/images/question-images/q16.webp",
+        imagePath:"assets/images/q-images/q16.webp",
         imageAlt:"Image of the four houses emblems",
     },
     {
@@ -191,7 +191,7 @@ const questions = [
             {text:"Amortentia", correct: true},
             {text:"Veritaserum", correct: false},
         ],
-        imagePath:"assets/images/question-images/q17.webp",
+        imagePath:"assets/images/q-images/q17.webp",
         imageAlt:"Image of a potion lessons",
     },
     {
@@ -202,7 +202,7 @@ const questions = [
             {text:"Aragog", correct: false},
             {text:"Norberta", correct: false},
         ],
-        imagePath: "assets/images/question-images/q18.webp",
+        imagePath: "assets/images/q-images/q18.webp",
         imageAlt:"Image of Hagrid and Fang",
     }, 
     {
@@ -213,7 +213,7 @@ const questions = [
             {text:"Charms", correct: false},
             {text:"Transfiguration", correct: false},
         ],
-        imagePath:"assets/images/question-images/q19.webp",
+        imagePath:"assets/images/q-images/q19.webp",
         imageAlt:"Image of Severus Snape",
     },
     {
@@ -224,7 +224,7 @@ const questions = [
             {text:"Ravenclaw", correct: true},
             {text:"Hufflepuff", correct: false},
         ],
-        imagePath:"assets/images/question-images/q20.webp",
+        imagePath:"assets/images/q-images/q20.webp",
         imageAlt:"Image of Moaning Myrtle ",
     },  
  
