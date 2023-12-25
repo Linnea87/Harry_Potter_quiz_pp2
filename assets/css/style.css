@@ -187,7 +187,7 @@ h1 {
 .modal {
     display: none;
     position: fixed;
-    margin-left: 20%;
+    margin-left: 14%;
     padding-bottom: 2%;
     top: 3%;
     width: 50vh;
@@ -315,6 +315,7 @@ h1 {
     .modal {
         height: 65%;
         width: 40vh;
+        margin-left: 14%;
     }
     #rules-image {
         height: 30vh;

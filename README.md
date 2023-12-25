@@ -75,10 +75,10 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 
 * When the user clicks either on X or somewhere outside the rule module, the window closes by itself.
 
-![rules](docs/homepage.png)
-
+![rules](docs/rules.png)
 
 ### Game Section
+
 ### Finished Section
 
 ## Deployment
