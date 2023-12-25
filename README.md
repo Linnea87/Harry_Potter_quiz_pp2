@@ -15,7 +15,7 @@ The purpose of this website is partly to create a simple quiz based game, where 
 
 
 ## Design
-I wanted to design a Harry Potter game that evokes the feeling of being part of Hogwarts and its magical world in the user. I have chosen colors, images, typograpy and mouse pointer in detail to succeed in creating this feeling for the user. 
+I wanted to design a Harry Potter game that evokes the feeling of being part of Hogwarts and its magical world. I have chosen colors, images, typograpy and mouse pointer in detail to succeed in creating this feeling for the user. 
 
 ### Wireframes
 I used wierframes from Balsamiq for this page. These wireframes are rough sketches of how I thought the site could be built to achieve the design I envisioned. Therefore, these sketches may differ from what the actual website looks like.
@@ -42,6 +42,44 @@ I wanted the mouse pointer to be a magic wand when playing the game on a laptop 
 I used the <https://coolors.co> tool where I uploaded the background image to create a color scheme that I have since based on when making my color choices.
 
 ![Color-scheme](docs/wireframes/Color.png)
+
+## Features
+
+* The game has a question bank with 20 questions. From this array, the game selects ten random questions for the user to answer.
+
+* The game keeps track of the questions that have been asked so the user is not asked the same question twice
+
+* As soon as the user has pressed one of the response options, the buttons will no longer be available. This is so that the user cannot change his mind and click several times on the different answer options.
+
+* If the user answers correctly, that answer option turns green, while the incorrect ones turn red, and vice versa if the user answers incorrectly. For each correct answer to the various questions, the score increases by 1.
+
+* When the user has pressed their answer option, the "next" button is displayed. When the user presses the "next" button, the answer options are cleared and a new question is displayed for the user to answer.
+
+* The game is responsive on all devices.
+
+### Home Section
+* When the user gets to the game's homepage, the user sees a clear header with an associated logo/image that tells what the game is called. 
+
+* The user also gets to read about what the game will be about with some anecdotes from the books/films. 
+
+* There is also a Let's fly button and a Rules button. If the user presses the Rules button, a box pops up where the user can read about the rules of the game, also here with anecdotes from the books/films. The code for the rules module is taken from https://www.w3schools.com/howto/howto_css_modals.asp
+
+* If the user presses the Let's fly button, the game starts and the homepage vill be hidden and the questions, answers, score counter and the next bottom will be displayed instead. 
+
+![homepage](docs/homepage.png)
+
+### Rules Section
+* When the user clicks on the rules button, the rules become visible in a pop up window.
+
+* Here, the user finds out that there are no rules with anecdotes from the böks/films
+
+* When the user clicks either on X or somewhere outside the rule module, the window closes by itself.
+
+![rules](docs/homepage.png)
+
+
+### Game Section
+### Finished Section
 
 ## Deployment
 ### Adding, committing and pushing code
@@ -90,8 +128,6 @@ I used Lighthouse in Chrome Dev when i tested the site for both Mobile and Deskt
 #### Mobile
 
 ![Lighthouse-Mobile](docs/lighthouse-mobile.png)
-
-
 
 ## Credits
 ### Question/Answer
