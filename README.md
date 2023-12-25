@@ -61,9 +61,9 @@ All quiz questions and answers are from [AhaSlides](https://ahaslides.com/sv/blo
 
 10. The rules image is from [pinterest](https://www.pinterest.se/pin/641622278133693828/)
 
-11. The B1-background image is [imgix](from https://imgix.bustle.com/rehost/2016/9/13/4e0b261d-8796-4462-86ec-ee29ceb41e1b.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2 (2))
+11. The B1-background image is from [imgix](https://imgix.bustle.com/rehost/2016/9/13/4e0b261d-8796-4462-86ec-ee29ceb41e1b.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2)
 
-12. The i.webp image are from wallpapers (https://wallpapers.com/)
+12. The i.webp image are from [wallpapers](https://wallpapers.com/)
 
 
 
