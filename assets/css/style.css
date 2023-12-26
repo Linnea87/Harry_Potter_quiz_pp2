@@ -360,7 +360,7 @@ h1 {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     
     header {
         width: 80vh;
@@ -374,7 +374,7 @@ h1 {
     #about-game-text {
         width: 65vh;
         height:35vh;
-        top:42vh;
+        top:30vh;
     }
 
     #about-game-text p {
@@ -411,7 +411,7 @@ h1 {
 
     #about-game-text {
         width: 65vh;
-        top: 40vh;
+        top: 35vh;
      
     }
 
