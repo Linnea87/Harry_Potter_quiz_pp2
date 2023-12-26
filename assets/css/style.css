@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-color: #654F39;
     height: 110vh;
-    width: 80vh;
+    width: 70vh;
 
 
 
@@ -234,6 +234,7 @@ h1 {
 /*responsiveness for screens with min-width 1024px */
 @media screen and (min-width: 1024px) {
     body{
+        width:80vh;
         height:98vh;
     }
     #main-div {
