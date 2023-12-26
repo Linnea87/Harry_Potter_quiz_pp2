@@ -17,7 +17,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #654F39;
-    height: 98vh;
+    height: 110vh;
     width:80vh;
 
 
@@ -26,7 +26,7 @@ body {
 
 header {
     background-color: rgba(213, 183, 106, 0.46);
-    margin: 20px 0px 20px 0px;
+    margin: 50px 0px 50px 0px;
     border-radius: 20px;
 
 
@@ -34,7 +34,7 @@ header {
 }
 
 header img {
-    height: 10vh;
+    height: 8vh;
 
  
 }
@@ -47,7 +47,7 @@ h1 {
 #main-div {
     border-radius: 20px;
     background-color: rgba(213, 183, 106, 0.46);
-    height: 70vh;
+    height: 65vh;
     width: 70vh;
 
 
@@ -58,7 +58,7 @@ h1 {
     background-image: url(../images/s-image/i.webp);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    height: 60vh;
+    height: 55vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,8 +69,8 @@ h1 {
 #about-game-text {
     background-color: #b6e6f6b8;
     width: 55vh;
-    height: 35vh;
-    top: 41vh;
+    height: 26vh;
+    top: 45vh;
     border-radius: 20px;
     margin-left: 2vh;
     position: absolute;
@@ -96,7 +96,7 @@ h1 {
 
 
 #question {
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin: auto;
     padding: 1vh;
     border-color: #3f2306;
@@ -110,8 +110,8 @@ h1 {
 /* general styling for the answer bottons */
 .button {
     font-size: 1em;
-    width: 70%;
-    padding: 6px;
+    width: 65%;
+    padding: 8px;
     margin: 5px;
     display: inline-block;
     overflow: visible;
@@ -155,11 +155,10 @@ h1 {
 .timer-score,
 .next-button {
     font-size: 1.2em;
-    margin-top: 1vh;
-    padding: 1px;
+    margin-top: 2vh;
+    padding:1px;
     width: 30%;
 }
-
 /* styling  a hover effect when mouseover */
 .botton:hover,
 .start-button:hover,
@@ -231,18 +230,64 @@ h1 {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*responsiveness for screens with max-width 1200px */
+@media screen and (max-width: 1200px) {
+    header {
+        width:90vh
+      }
+   
+   
+      #main-div {
+    width:90vh;
+      }
+       
+      #about-game-text {
+          width:65vh;
+          top: 44vh;
+          height: 32vh;
+      }
+   
+      
+   
+      .button {
+          font-size: 1em;
+          width: 65vh;
+        
+        
+   
+      }
+   
+       #question {
+          font-size: 1.4em;
+     
+   
+      }
+   
+      #question-image {
+       height: 20vh;
+   }
+   
+      .timer-score,
+      .next-button {
+          font-size: 1.3em;
+          margin-top: 1vh;
+      }  
+   
+      
+   
+   }
+   
 /*responsiveness for smaller screens */
 @media screen and (max-width: 600px) {
     body {
         width: 100%;
-        height: 116vh;
+        height: 105vh;
     }
 
     header {
         margin-top: 2vh;
         width: 50vh;
-        margin-left:0.2vh;
+        margin-left:3vh;
        
 
     }
@@ -257,22 +302,19 @@ h1 {
 
     #main-div {
         height: 65vh;
-        width: 50vh;
-        margin-left: 0.1vh;
-
-
-
+        width: 55vh;
     }
 
+
     #about-game {
-        height: 50vh;
+        height: 55vh;
 
     }
 
     #about-game-text {
-        width: 45vh;
-        top: 30vh;
-        height: 31vh;
+        width: 50vh;
+        top: 33vh;
+        height: 34vh;
     }
 
     #about-game-text p {
@@ -286,6 +328,7 @@ h1 {
 
     #question {
         font-size: 1em;
+   
 
     }
 
@@ -295,7 +338,8 @@ h1 {
 
     .button {
         font-size: 0.8em;
-        width: 45vh;
+        width: 40vh;
+        padding:0.2vh;
       
       
 
@@ -307,18 +351,20 @@ h1 {
     .again-button,
     .timer-score {
         font-size: 1em;
+    
     }
 
     .timer-score,
     .next-button {
-        font-size: 1em;
-        width: 40%;
-      
+        font-size: 0.9em;
+
+    
+    
     }
     .modal {
         height: 65%;
-        width: 40vh;
-        margin-left: 14%;
+        width: 45vh;
+        margin-left: 10%;
     }
     #rules-image {
         height: 30vh;
