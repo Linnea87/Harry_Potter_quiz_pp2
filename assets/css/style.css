@@ -260,7 +260,7 @@ h1 {
 }
 
 
-/*responsiveness for smaller screens */
+/*responsiveness for min-width 200px */
 @media screen and (min-width:200px) {
     body {
         width: 100%;
@@ -270,7 +270,7 @@ h1 {
     header {
         margin-top: 2vh;
         width: 50vh;
-        margin-left: 3vh;
+        margin-left: 2vh;
 
 
     }
@@ -357,11 +357,18 @@ h1 {
 
 }
 
+
+@media screen and (min-width: 425px) {
+    header{
+        margin-left:6vh;
+    }
+}
+
 @media screen and (min-width: 768px) {
     
     header {
         width: 80vh;
-        margin-left: 10vh;
+        margin-left: 18vh;
     }
 
      #main-div {
@@ -370,7 +377,7 @@ h1 {
 
     #about-game-text {
         width: 65vh;
-        height:20vh;
+        height:25vh;
         top:42vh;
     }
         
@@ -404,7 +411,7 @@ h1 {
     #about-game-text {
         width: 65vh;
         top: 40vh;
-        height: 20vh;
+     
     }
 
     #question {
