@@ -17,7 +17,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #654F39;
-    width: 90vh;
+    height: 98vh;
+    width:80vh;
 
 
 
@@ -46,8 +47,8 @@ h1 {
 #main-div {
     border-radius: 20px;
     background-color: rgba(213, 183, 106, 0.46);
-    height: 75vh;
-    width: 85vh;
+    height: 70vh;
+    width: 70vh;
 
 
 }
@@ -57,7 +58,7 @@ h1 {
     background-image: url(../images/s-image/i.webp);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    height: 65vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,9 +68,9 @@ h1 {
 
 #about-game-text {
     background-color: #b6e6f6b8;
-    width: 70vh;
+    width: 55vh;
     height: 35vh;
-    top: 42vh;
+    top: 41vh;
     border-radius: 20px;
     margin-left: 2vh;
     position: absolute;
@@ -83,20 +84,19 @@ h1 {
 }
 
 #about-game-text h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 #question-image {
     border-radius: 10px;
-    height: 30vh;
-    margin: 1vh;
+    height: 25vh;
     box-shadow: 0 4px 8px darkslategray;
 
 }
 
 
 #question {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin: auto;
     padding: 1vh;
     border-color: #3f2306;
@@ -110,8 +110,8 @@ h1 {
 /* general styling for the answer bottons */
 .button {
     font-size: 1em;
-    width: 50%;
-    padding: 5px;
+    width: 70%;
+    padding: 6px;
     margin: 5px;
     display: inline-block;
     overflow: visible;
