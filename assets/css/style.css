@@ -67,13 +67,18 @@ h1 {
 }
 
 #about-game-text {
+
     background-color: #b6e6f6b8;
-    width: 55vh;
-    height: 26vh;
+    width: 60vh;
+    height: 30vh;
     top: 45vh;
     border-radius: 20px;
     margin-left: 2vh;
     position: absolute;
+    
+    
+    
+    
 
 
 }
@@ -232,102 +237,6 @@ h1 {
     cursor: pointer;
 }
 
-
-
-/*responsiveness for screens with min-width 1200px */
-@media screen and (min-width: 1200px) {
-    header {
-        width: 90vh
-    }
-
-
-    #main-div {
-        width: 90vh;
-    }
-
-    #about-game-text {
-        width: 65vh;
-        top: 44vh;
-        height: 33vh;
-    }
-
-    #about-game-text p {
-        font-size: 1em;
-        margin-top: 1vh;
-    }
-
-
-    #about-game-text h2 {
-        font-size: 1em;
-
-    }
-
-    .button {
-        font-size: 1em;
-        width: 65vh;
-
-
-
-    }
-
-    #question {
-        font-size: 1.4em;
-
-
-    }
-
-    #question-image {
-        height: 20vh;
-    }
-
-    .timer-score,
-    .next-button {
-        font-size: 1.3em;
-        margin-top: 1vh;
-    }
-
-
-
-}
-
-/*responsiveness for screens with min-width 1024px */
-@media screen and (min-width: 1024px) {
-    body {
-        width: 80vh;
-        height: 98vh;
-    }
-
-    #main-div {
-        width: 80vh;
-    }
-
-    #about-game-text {
-        width: 65vh;
-        top: 44vh;
-        height: 33vh;
-    }
-
-    #question {
-        font-size: 1.3em;
-
-
-    }
-
-    .button {
-        font-size: 1.1em;
-        width: 65%;
-        padding: 0.5vh;
-        margin: 0.5vh;
-
-    }
-
-    .timer-score,
-    .next-button {
-        font-size: 1.em;
-        margin-top: 1vh;
-    }
-
-}
 /* Styling for screens with min-width 800px */
 @media screen and (min-width: 800px) {
     #about-game-text {
@@ -352,10 +261,10 @@ h1 {
 
 
 /*responsiveness for smaller screens */
-@media screen and (min-width:300px) {
+@media screen and (min-width:200px) {
     body {
         width: 100%;
-        height: 105vh;
+        height: 120vh;
     }
 
     header {
@@ -445,6 +354,135 @@ h1 {
     #rules-image {
         height: 30vh;
     }
+
+}
+
+@media screen and (min-width: 768px) {
+    
+    header {
+        width: 80vh;
+        margin-left: 10vh;
+    }
+
+     #main-div {
+        width: 80vh;
+    }
+
+    #about-game-text {
+        width: 65vh;
+        height:20vh;
+        top:42vh;
+    }
+        
+
+}
+
+
+/*responsiveness for screens with min-width 1024px */
+@media screen and (min-width: 1024px) {
+    body {
+        width: 80vh;
+        height: 98vh;
+    }
+
+    header {
+        width: 80vh;
+        margin-left: 1vh;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+
+    #main-div {
+        width: 80vh;
+        
+    
+    }
+
+    #about-game-text {
+        width: 65vh;
+        top: 40vh;
+        height: 20vh;
+    }
+
+    #question {
+        font-size: 1.3em;
+
+
+    }
+
+    .button {
+        font-size: 1.1em;
+        width: 65%;
+        padding: 0.5vh;
+        margin: 0.5vh;
+
+    }
+
+    .timer-score,
+    .next-button {
+        font-size: 1.em;
+        margin-top: 1vh;
+    }
+
+}
+
+
+/*responsiveness for screens with min-width 1200px */
+@media screen and (min-width: 1200px) {
+    header {
+        width: 90vh
+    }
+
+
+    #main-div {
+        width: 90vh;
+    }
+
+    #about-game-text {
+        width: 65vh;
+        top: 44vh;
+        height: 33vh;
+    }
+
+    #about-game-text p {
+        font-size: 1em;
+        margin-top: 1vh;
+    }
+
+
+    #about-game-text h2 {
+        font-size: 1em;
+
+    }
+
+    .button {
+        font-size: 1em;
+        width: 65vh;
+
+
+
+    }
+
+    #question {
+        font-size: 1.4em;
+
+
+    }
+
+    #question-image {
+        height: 20vh;
+    }
+
+    .timer-score,
+    .next-button {
+        font-size: 1.3em;
+        margin-top: 1vh;
+    }
+
+
 
 }
 
