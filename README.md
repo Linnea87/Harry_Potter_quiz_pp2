@@ -101,12 +101,23 @@ I used the <https://coolors.co> tool where I uploaded the background image to cr
 
 
 ### Finished Section
+* After answering the last question, the user reaches the last page. the total score from the number of answered questions is shown here
 
+* The "want to play again?" button is displayed below the score. When the user clicks on the button, they are returned to the game's home page and given a new opportunity to play again.
+
+![Quiz over](docs/quiz-over.png)
+
+## Features to implement
+
+* Adding different messages with associated images when the game is over depending on the user's score.
+* Add more questions
+* Add a module where the user can enter their name
+* Add a 404 page.
 
 ## Technologies
 * HTML is the main language of this project. CSS for styling in a separate file.
 * JavaScript has been used for the quiz.
-The IDE I used has been Gitpod with Code Institutes template.
+* The IDE I used has been Gitpod with Code Institutes template.
 * Git has been used to regularly adding, committing and pushing code to GitHub.
 * All code have been stored at GitHub.
 * The project has been deployed through Git Pages.
@@ -172,6 +183,9 @@ The site has been tested in [Wave](https://wave.webaim.org/) with good results N
 * The website has been checked for the responsivnes in different screen sizes with Dev Tools
 * The website has also been manually tested by me, my family and friends with diferent devices as tablets, mobiles, laptops and desktops throughout the entire project.
 * The website has been tested in different browsers such as Chrome, IE Edge, Firefox, Safari and Opera with no errors. In Safari tho the mouse pointer hade a little black square as background. 
+
+![Testing](docs/testing.png)
+
 
 ## Bugs
 None
